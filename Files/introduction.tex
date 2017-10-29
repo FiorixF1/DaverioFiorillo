@@ -1,24 +1,66 @@
-This document has been prepared to help you approaching Latex as a formatting tool for your Travlendar+ deliverables. This document suggests you a possible style and format for your deliverables and contains information about basic formatting commands in Latex. A good guide to Latex is available here \href{https://tobi.oetiker.ch/lshort/lshort.pdf}{https://tobi.oetiker.ch/lshort/lshort.pdf}, but you can find many other good references on the web. 
+\subsection{Purpose}
+The following document is the Requirement Analysis and Specification Document (RASD) for the formalization and description of all the needed features, constraints and recommendations that will constitute the proposed system.
 
-Writing in Latex means writing textual files having a \texttt{.tex} extension and exploiting the Latex markup commands for formatting purposes. Your files then need to be compiled using the Latex compiler. Similarly to programming languages, you can find many editors that help you writing and compiling your latex code. Here \href{https://beebom.com/best-latex-editors/}{https://beebom.com/best-latex-editors/} you have a short oviewview of some of them. Feel free to choose the one you like.  
+The paper will focus on the elicitation and analysis of all functional and nonfunctional requirements, also verified by automated logic verification software (Alloy Analyzer [MIT]) and supported by UML schemes and scenarios.
+The provided document will also include a concise analysis of the environment and it tries to clarify all the interaction among system parts and external world.
 
-Include a subsection for each of the following items\footnote{By the way, what follows is the structure of an itemized list in Latex.}:
-\begin{itemize}
-\item
-Purpose: here we include the goals of the project
-\item
-Scope: here we include an analysis of the world and of the shared phenomena
-\item
-Definitions, Acronyms, Abbreviations
-\item
-Revision history
-\item
-Reference Documents 
-\item
-Document Structure
-\end{itemize}
-Below you see how to define the header for a subsection.
+The target audiences of this document are all the stakeholders involved in the development of the system and it can be used as contractual base for the project.
+
+
 \subsection{Scope}
-... Here you see a subsubsection
+
+\subsubsection{System description}
+
+The system that would be developed is a calendar-based application that provides support for planning of appointments, automating the travel arrangement process according to the user preferences.
+The system will be able to plan travel routes choosing transport options among public and private means, including trains, trams, taxis, bicycles, bike and car sharing, owned automobile and others. Therefore, the system will provide a set of possible route options, trying to minimize travel times, route length, carbon footprint or number of changes.
+
+Also, it will have to recollect travel informations on public transportations and travelling conditions from different external sources.
+Beside, the application will give the possibility to users to register themselves, allowing them to access a series of extra features, including the possibility of setting personal preferences and backup personal agenda and routes.
+
+User preferences include the possibility to set travel pauses, flexible launch (30 minute of travel pause between 11.30-14.30), enabling and disabling certains types of transportation means in a specific period of the day or anytime and in addition it will give the possibility to user to create profiles of preferences and link them to single appointments)
+Finally, system should be capable to interacting with any type of external public transportation service, although it will focus on make available them in the city of Milan.
+
 \subsubsection{World Phenomena}
+
+Many public transport service companies offers the possibility to obtains informations on timetables, routes, stations and status of services in aggregate way providing public Application Public Interfaces (APIs). Thus it is guaranteed the theoretical possibility to make queries in any moment and get the latest valid informations on transports.
+
+Others doesn’t offer the same possibilities; for instance Trenitalia hasn’t yet a public API, but there are different opensource projects that allow to fill the gap.
+
+Moreover, a lot of web mapping services makes available public APIs too. In this case it is possible to get GPS location from an address or vice-versa, or update a portion of map and even process a route given a starting point and a destination.
+All the required supported companies provide aforementioned services.
+
+\subsubsection{Goals}
 %what you write here is a comment that is not shown in the final text
+{To be retrive from google docs}
+
+\subsection{Definitions, Acronyms, Abbreviations}
+Retrive from Google Docs
+
+\subsection{Revision history}
+
+
+\subsection{References}
+
+
+\begin{itemize}
+	\item Specification Document assigned: \texttt{“Mandatory\_Project\_Assignments.pdf”}
+	\item Software Requirements Specification Guidelines : IEEE 830-1998
+	\item Alloy Website: \url{http://alloy.mit.edu/alloy/}
+	\item BetterTaxi Api: \url{https://www.bettertaxi.com/developers/}
+\end{itemize}
+
+\subsection{Document Structure}
+
+The document is composed of six different parts.
+
+\begin{enumerate}
+	
+	\item The introduction has the objective to support the reader into the reading of the document providing a brief description of the problem and the actual technological landscape description. It also include a list of definition, abbreviations and acronyms commonly employed through the rest of the document.
+	\item The second part offers an overall description of the system, then focused on the boundaries that divide the system from world, especially inspecting all interactions on shared phenomena. In addition, it is provided a short description of users. FInally, it is listed and described a set of core functionalities that will be supported and assumptions.
+	\item The third part provides a more complex and detailed description of functionalities, also in terms of requirement. This part is addressed specifically to development team
+	\item This section provides an Alloy model for verification of goals through a formal analysis of requirements and domain assumption. This is beneficial in assuring the consistency of the model. It also provide a representation of the world and system.
+	\item The fifth part provides the effort spent in term of time involved into the project by the authors.
+	In the last part, there are references to external sources.
+	
+\end{enumerate}
+

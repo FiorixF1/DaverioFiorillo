@@ -132,7 +132,15 @@ sig TransportMeans{}
 
 //show world
 pred show{
+<<<<<<< HEAD
 
 }
 
 run show for 1
+=======
+	
+
+}
+
+run show 
+>>>>>>> 1073a6aeb13ef311b4f2eaa0c85818d04d1518f0
