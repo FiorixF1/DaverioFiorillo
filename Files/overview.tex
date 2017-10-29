@@ -1,18 +1,13 @@
 
-\begin{sidewaysfigure}
-\centering
-\includegraphics[width=\textwidth]{Images/11.png}
-\caption{\label{fig:metamodel}DICE DPIM metamodel.}
-\end{sidewaysfigure}
-
-\begin{figure}
-\centering
-\includegraphics[width=\textwidth]{Images/11.png}
-\caption{\label{fig:metamodel2}DICE DPIM metamodel in portrait form.}
-\end{figure}
-
 
 \subsection{Product perspective}
+
+\begin{sidewaysfigure}[!h]
+	\centering
+	\includegraphics[width=\textwidth]{Images/Class_Diagram.png}
+	\caption{\label{fig:classDiagram} UML class diagram perspective }
+\end{sidewaysfigure}
+
 
 \subsubsection{User interfaces}
 
@@ -149,4 +144,14 @@ The user of this system is not required to have IT skills.
 
 \subsection{Assumptions}
 
-{GET FROM EXTERNAL DOC}
+\begin{itemize}
+	\item[D1] The timetables of the public transport means are retrieved by external API and are reliable.
+	\item[D2]The route between two points is calculated by external map and routing services, they provide correct information.
+	\item[D3]The GPS gives the correct position with an accuracy of few meters.
+	\item[D4]The registered users are recognized by their email address, which is unique.
+	\item[D5]If the system needs to send an SMS to a user, he will receive it.
+	\item[D6]A route between two locations is composed by some paths, each of them is travelled by a specific mean of transport.
+\end{itemize}
+
+
+
