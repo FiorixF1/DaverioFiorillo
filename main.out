@@ -28,5 +28,10 @@
 \BOOKMARK [2][-]{subsection.2.4}{Assumptions}{section.2}% 28
 \BOOKMARK [1][-]{section.3}{Specific Requirements}{}% 29
 \BOOKMARK [1][-]{section.4}{Formal Analysis Using Alloy}{}% 30
-\BOOKMARK [1][-]{section.5}{Effort Spent}{}% 31
-\BOOKMARK [1][-]{section.5}{References}{}% 32
+\BOOKMARK [2][-]{subsection.4.1}{Signatures}{section.4}% 31
+\BOOKMARK [2][-]{subsection.4.2}{Facts}{section.4}% 32
+\BOOKMARK [2][-]{subsection.4.3}{Predicates}{section.4}% 33
+\BOOKMARK [2][-]{subsection.4.4}{Results}{section.4}% 34
+\BOOKMARK [2][-]{subsection.4.5}{World}{section.4}% 35
+\BOOKMARK [1][-]{section.5}{Effort Spent}{}% 36
+\BOOKMARK [1][-]{section.5}{References}{}% 37

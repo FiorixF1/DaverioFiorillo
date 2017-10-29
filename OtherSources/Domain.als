@@ -1,4 +1,5 @@
-//User
+//Signatures
+
 sig User {
 	id : Int,
 	fixedAppointments : set Appointment
@@ -46,7 +47,7 @@ sig Position {
 	street : string,
 	municipality : string,
 	number : Int,
-	cap : Int,
+	cap : CAP,
 	coordinates : Coord
 }
 
@@ -66,11 +67,13 @@ sig Email{}
 sig Name{}
 sig Surname{}
 sig CF {}
+sig CAP {}
 sig string{}
 sig Coord{}
 sig WeatherCondition{}
 sig Preference {}
 sig TravelMeans {}
+
 
 sig DateTime{
 	month : Int,
@@ -147,7 +150,7 @@ fact {
 		&& (no s : r.steps | r.end.to = s.from)
 		&& (all s : r.steps | s.to = r.end.from or one s1: r.steps | s.to = s1.from)
 		&& (all s : r.steps | s.from = r.start.to or one s1 : r.steps | s.from = s1.to)
-		&& (#r.steps = 0 implies (r.start = r.end or r.start.to= r.end.from))
+		&& (#r.steps = 0 implies (r.start = r.end or r.start.to= r.end.from) else r.start != r.end)
 	)
 }
 
@@ -155,7 +158,7 @@ pred addRoutePart ( r: Route, rp: RoutePart, r' : Route ){
 	//prec
 	r.end.to = rp.from
 	//postc
-	r'.start = r.start and r'.steps= r.steps+ r.end and r'.end = rp
+	r'.start = r.start and r'.steps= (r.steps+ r.end) and r'.end = rp
 }
 
 //A new preference is added to DefaultProfile
@@ -205,11 +208,16 @@ pred removeAppointment(a : Appointment, u : User, u' : User) {
 }
 
 pred show{
-	#User = 5
-	#RegisteredUser=2
-	#Appointment=4
-	#AdvancedAppointment =2
-	#Preference = 4
+	#User =2
+	#RegisteredUser=1
+	#Appointment=2
+	#AdvancedAppointment =1
+	#Preference = 1
+	#PreferenceProfile = 2
+	#Route = 1
+	#RoutePart = 3
+	#TravelMeans = 1
+	#CAP = 1
 }
 
 run addRoutePart for 5 but 8 Int
@@ -219,4 +227,4 @@ run addPreferenceProfileToAppointment for 5 but 8 Int
 run addAppointment for 5 but 8 Int
 run removeAppointment for 5 but 8 Int
 
-run show for 5 but 8 Int
+//run show for 5 but 8 Int
