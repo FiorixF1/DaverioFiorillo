@@ -1,24 +1,82 @@
-This document has been prepared to help you approaching Latex as a formatting tool for your Travlendar+ deliverables. This document suggests you a possible style and format for your deliverables and contains information about basic formatting commands in Latex. A good guide to Latex is available here \href{https://tobi.oetiker.ch/lshort/lshort.pdf}{https://tobi.oetiker.ch/lshort/lshort.pdf}, but you can find many other good references on the web. 
+\subsection{Purpose}
 
-Writing in Latex means writing textual files having a \texttt{.tex} extension and exploiting the Latex markup commands for formatting purposes. Your files then need to be compiled using the Latex compiler. Similarly to programming languages, you can find many editors that help you writing and compiling your latex code. Here \href{https://beebom.com/best-latex-editors/}{https://beebom.com/best-latex-editors/} you have a short oviewview of some of them. Feel free to choose the one you like.  
+The purpose of this derivable is to provide an architectural design solution for Travlendar+ that fulfils all functional and non-functional requirements expressed in the linked Requirement Analysis and Specification Document.
 
-Include a subsection for each of the following items\footnote{By the way, what follows is the structure of an itemized list in Latex.}:
-\begin{itemize}
-\item
-Purpose: here we include the goals of the project
-\item
-Scope: here we include an analysis of the world and of the shared phenomena
-\item
-Definitions, Acronyms, Abbreviations
-\item
-Revision history
-\item
-Reference Documents 
-\item
-Document Structure
-\end{itemize}
-Below you see how to define the header for a subsection.
+The following document will also provide an overview of an implementation, integration and test plan solution, bounded with this derivable.
+
+The target audiences of this paper are developers, testers teams and analysts involved in the project.
+
 \subsection{Scope}
-... Here you see a subsubsection
-\subsubsection{World Phenomena}
-%what you write here is a comment that is not shown in the final text
+
+Travlendar+ is a calendar-based application thought to support user thorough his appointment scheduling and transport management.
+
+The system will provide to user:
+
+\begin{itemize}
+	\item the possibility to insert scheduled appointments
+	\item the insertions, modification and organization of different types of preferences
+	\item registration and login in order to access backup/sync options, beside a more advance preferences management
+	\item different route choices to reach the location of appointments
+\end{itemize}
+
+(for further details look at RASD document).
+
+The system will offer his services to user through a Web GUI and a mobile application supporting different operating systems and device format.
+
+
+
+\subsection{Definitions, Acronyms, Abbreviations}
+
+\begin{itemize}
+	\item \textsl{RASD} \textbf{R}equirement \textbf{A}nalysis and \textbf{S}oftware \textbf{S}pecification
+	\item \textsl{DD} \textbf{D}esign \textbf{D}ocument
+	\item \textsl{Appointment}
+	\item \textsl{Route}
+	\item \textsl{Path}
+	\item \textsl{MA}
+	\item \textsl{GUI} \textbf{G}raphic \textbf{U}ser \textbf{I}nterface
+	\item \textsl{WebUI} \textbf{W}ew \textbf{U}ser \textbf{I}nterface
+	
+\end{itemize}
+
+\subsection{Revision History}
+
+%Revision History
+
+\subsection{Reference Document}
+
+\begin{itemize}
+	\item \textsl{Travlendar+ RASD document}
+	\item \textsl{"Mandatory\_Project\_Assignment.pdf" }: assignment given of the project
+	
+\end{itemize}
+
+\subsection{Document Structure}
+
+
+
+	\paragraph*{1 - Introduction} 
+	The first section offers an overview on the content of the following document, highlighting the purpose of this derivable and recalling a brief description of the problem itself. It also contains references to other documentation linked to this project.
+
+	\paragraph*{2 - Architectural Design} 
+	Firstly, he architectural design section presents an overview of a proposed system architecture to accomplish RASD specification. 
+	\newline
+	Secondly, it steps into the system identifying behaviour of components, their interfaces and interoperability with other components, inside or outside the system. 
+	\newline
+	Finally, it explains the thought behind design choices and it gives a list of patterns employed.
+
+	\paragraph*{3 - Algorithm Design}
+	This section provides a list of the most significant algorithms, used by system, expressed in object oriented pseudo-code. They are given in order to specify some critical operation steps.
+
+	\paragraph*{4 - User Interface Design}
+	This section offers a look upon the user interfaces in order to give a good representation of how the UI will look like to users by mean of interfaces mock-up. Furthermore, it' offered a deeper inquiry on the user interaction with the system through UX and BCE diagrams.
+
+	\paragraph*{5 - Requirement Traceability}
+	Section implied in the traceability purpose of requirements, defined in RASD document, with components identified by current derivable in order to increase the observability of requirements fulfilment in following parts of system development and testing.
+
+	\paragraph*{6 - Implementation, Integration and Test Plan} 
+	It defines the strategy and provides a sequential plan for the implementation, integration and test processes, describing the sequence in which components are developed, integrated and tested together.
+
+	\paragraph*{7 - Effort Spent}
+	Appendix showing the commitment required by the project to the team.
+

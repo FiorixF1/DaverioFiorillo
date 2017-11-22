@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.10.15)  30 OCT 2017 01:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.10.15)  20 NOV 2017 15:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1180,7 +1180,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 14.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<Images/PolimiLogo.png, id=252, 405.515pt x 125.46875pt>
+<Images/PolimiLogo.png, id=256, 405.515pt x 125.46875pt>
 <use Images/PolimiLogo.png> <use Images/PolimiLogo.png>
 File: Images/PolimiLogo.png Graphic file (type png)
 
@@ -1224,12 +1224,13 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 [7
 
 ] [8]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 106.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 110.
 
  (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)) [9] (./Files/overview.tex
-<Images/Class_Diagram.png, id=403, 1464.2203pt x 867.99281pt>
+) [9]) [10]
+(./Files/overview.tex
+<Images/Class_Diagram.png, id=433, 1464.2203pt x 867.99281pt>
 File: Images/Class_Diagram.png Graphic file (type png)
 
 <use Images/Class_Diagram.png>
@@ -1239,13 +1240,13 @@ Package pdftex.def Info: Images/Class_Diagram.png used on input line 7.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[10
+[11
 
-] [11] [12]) [13] [14 <./Images/Class_Diagram.png>]
-(./Files/requirements.tex [15
+] [12] [13]) [14] [15 <./Images/Class_Diagram.png>]
+(./Files/requirements.tex [16
 
-] [16] [17] [18] [19]
-<Images/UseCaseTables/1_user_reg.PNG, id=470, 462.22687pt x 389.95688pt>
+] [17] [18] [19] [20]
+<Images/UseCaseTables/1_user_reg.PNG, id=500, 462.22687pt x 389.95688pt>
 File: Images/UseCaseTables/1_user_reg.PNG Graphic file (type png)
 
 <use Images/UseCaseTables/1_user_reg.PNG>
@@ -1260,8 +1261,8 @@ Overfull \hbox (6.98163pt too wide) in paragraph at lines 182--183
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [20]
-<Images/UseCaseTables/2_user_log.PNG, id=475, 459.96844pt x 417.05812pt>
+ [21]
+<Images/UseCaseTables/2_user_log.PNG, id=505, 459.96844pt x 417.05812pt>
 File: Images/UseCaseTables/2_user_log.PNG Graphic file (type png)
 
 <use Images/UseCaseTables/2_user_log.PNG>
@@ -1273,7 +1274,7 @@ Overfull \hbox (4.7232pt too wide) in paragraph at lines 188--189
  [][] 
  []
 
-<Images/UseCaseTables/3_usr_add_appo.png, id=476, 435.87843pt x 519.44063pt>
+<Images/UseCaseTables/3_usr_add_appo.png, id=506, 435.87843pt x 519.44063pt>
 File: Images/UseCaseTables/3_usr_add_appo.png Graphic file (type png)
 
 <use Images/UseCaseTables/3_usr_add_appo.png>
@@ -1281,7 +1282,7 @@ Package pdftex.def Info: Images/UseCaseTables/3_usr_add_appo.png used on input
 line 194.
 (pdftex.def)             Requested size: 435.87737pt x 519.43936pt.
 
-<Images/UseCaseTables/4_The_user_add_route.png, id=477, 437.38406pt x 933.4875p
+<Images/UseCaseTables/4_The_user_add_route.png, id=507, 437.38406pt x 933.4875p
 t>
 File: Images/UseCaseTables/4_The_user_add_route.png Graphic file (type png)
  <use Images/UseCaseTables/4_The_user_add_route.png>
@@ -1293,7 +1294,7 @@ input line 200.
 LaTeX Warning: Float too large for page by 23.59999pt on input line 202.
 
 
-<Images/UseCaseTables/5_usr_changes_app.png, id=478, 438.13687pt x 620.3175pt>
+<Images/UseCaseTables/5_usr_changes_app.png, id=508, 438.13687pt x 620.3175pt>
 File: Images/UseCaseTables/5_usr_changes_app.png Graphic file (type png)
 
 <use Images/UseCaseTables/5_usr_changes_app.png>
@@ -1301,7 +1302,7 @@ Package pdftex.def Info: Images/UseCaseTables/5_usr_changes_app.png used on inp
 ut line 206.
 (pdftex.def)             Requested size: 438.13579pt x 620.316pt.
 
-<Images/UseCaseTables/6_usr_del_app.PNG, id=479, 459.96844pt x 356.0803pt>
+<Images/UseCaseTables/6_usr_del_app.PNG, id=509, 459.96844pt x 356.0803pt>
 File: Images/UseCaseTables/6_usr_del_app.PNG Graphic file (type png)
 
 <use Images/UseCaseTables/6_usr_del_app.PNG>
@@ -1313,7 +1314,7 @@ Overfull \hbox (4.7232pt too wide) in paragraph at lines 212--213
  [][] 
  []
 
-<Images/UseCaseTables/7_usr_mod_route.png, id=480, 459.21562pt x 514.17094pt>
+<Images/UseCaseTables/7_usr_mod_route.png, id=510, 459.21562pt x 514.17094pt>
 File: Images/UseCaseTables/7_usr_mod_route.png Graphic file (type png)
 
 <use Images/UseCaseTables/7_usr_mod_route.png>
@@ -1325,7 +1326,7 @@ Overfull \hbox (3.97038pt too wide) in paragraph at lines 218--219
  [][] 
  []
 
-<Images/UseCaseTables/8_usr_del_route.PNG, id=481, 459.96844pt x 298.11375pt>
+<Images/UseCaseTables/8_usr_del_route.PNG, id=511, 459.96844pt x 298.11375pt>
 File: Images/UseCaseTables/8_usr_del_route.PNG Graphic file (type png)
 
 <use Images/UseCaseTables/8_usr_del_route.PNG>
@@ -1337,7 +1338,7 @@ Overfull \hbox (4.7232pt too wide) in paragraph at lines 224--225
  [][] 
  []
 
-<Images/UseCaseTables/9_usr_report.PNG, id=482, 460.72125pt x 389.95688pt>
+<Images/UseCaseTables/9_usr_report.PNG, id=512, 460.72125pt x 389.95688pt>
 File: Images/UseCaseTables/9_usr_report.PNG Graphic file (type png)
 
 <use Images/UseCaseTables/9_usr_report.PNG>
@@ -1350,7 +1351,7 @@ Overfull \hbox (5.47601pt too wide) in paragraph at lines 230--231
  []
 
 
-<Images/UseCaseTables/10_usr_add_pro_pref.PNG, id=483, 461.47406pt x 375.65344p
+<Images/UseCaseTables/10_usr_add_pro_pref.PNG, id=513, 461.47406pt x 375.65344p
 t>
 File: Images/UseCaseTables/10_usr_add_pro_pref.PNG Graphic file (type png)
  <use Images/UseCaseTables/10_usr_add_pro_pref.PNG>
@@ -1362,28 +1363,181 @@ Overfull \hbox (6.2288pt too wide) in paragraph at lines 236--237
  [][] 
  []
 
-<Images/UseCase_Diagram.png, id=484, 1481.535pt x 750.55406pt>
+<Images/UseCase_Diagram.png, id=514, 1481.535pt x 750.55406pt>
 File: Images/UseCase_Diagram.png Graphic file (type png)
 
 <use Images/UseCase_Diagram.png>
 Package pdftex.def Info: Images/UseCase_Diagram.png used on input line 243.
 (pdftex.def)             Requested size: 688.5567pt x 348.83224pt.
-) [21 <./Images/UseCaseTables/1_user_reg.PNG>]
-[22 <./Images/UseCaseTables/2_user_log.PNG>] [23 <./Images/UseCaseTables/3_usr_
-add_appo.png>] [24 <./Images/UseCaseTables/4_The_user_add_route.png>] [25 <./Im
-ages/UseCaseTables/5_usr_changes_app.png>] [26 <./Images/UseCaseTables/6_usr_de
-l_app.PNG>] [27 <./Images/UseCaseTables/7_usr_mod_route.png>] [28 <./Images/Use
-CaseTables/8_usr_del_route.PNG>] [29 <./Images/UseCaseTables/9_usr_report.PNG>]
-[30 <./Images/UseCaseTables/10_usr_add_pro_pref.PNG>] [31 <./Images/UseCase_Dia
-gram.png>] (./Files/alloy.tex
-<Images/Alloy/data.png, id=542, 357.58594pt x 677.53125pt>
+
+<Images/SequenceDiagrams/1_User_Registration.png, id=515, 662.475pt x 515.67656
+pt>
+File: Images/SequenceDiagrams/1_User_Registration.png Graphic file (type png)
+ <use Images/SequenceDiagrams/1_User_Registration.png>
+Package pdftex.def Info: Images/SequenceDiagrams/1_User_Registration.png used o
+n input line 251.
+(pdftex.def)             Requested size: 662.47339pt x 515.6753pt.
+
+Overfull \hbox (207.22928pt too wide) in paragraph at lines 251--252
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22 <./Images/UseCaseTables/1_user_reg.PNG>] [23 <./Images/UseCaseTables/2_use
+r_log.PNG>] [24 <./Images/UseCaseTables/3_usr_add_appo.png>] [25 <./Images/UseC
+aseTables/4_The_user_add_route.png>] [26 <./Images/UseCaseTables/5_usr_changes_
+app.png>]
+[27 <./Images/UseCaseTables/6_usr_del_app.PNG>] [28 <./Images/UseCaseTables/7_u
+sr_mod_route.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [29 <./Images/UseCaseTables/8_usr_del_route.PNG>] [30 <./Images/UseCaseTables/
+9_usr_report.PNG>] [31 <./Images/UseCaseTables/10_usr_add_pro_pref.PNG>] [32 <.
+/Images/UseCase_Diagram.png>]
+<Images/SequenceDiagrams/2_User_Login.png, id=574, 662.475pt x 515.67656pt>
+File: Images/SequenceDiagrams/2_User_Login.png Graphic file (type png)
+
+<use Images/SequenceDiagrams/2_User_Login.png>
+Package pdftex.def Info: Images/SequenceDiagrams/2_User_Login.png used on input
+ line 257.
+(pdftex.def)             Requested size: 662.47339pt x 515.6753pt.
+
+Overfull \hbox (207.22928pt too wide) in paragraph at lines 257--258
+ [][] 
+ []
+
+
+<Images/SequenceDiagrams/3_Appointment_addition.png, id=575, 1115.66812pt x 593
+.21625pt>
+File: Images/SequenceDiagrams/3_Appointment_addition.png Graphic file (type png
+)
+ <use Images/SequenceDiagrams/3_Appointment_addition.png>
+Package pdftex.def Info: Images/SequenceDiagrams/3_Appointment_addition.png use
+d on input line 263.
+(pdftex.def)             Requested size: 1115.6654pt x 593.2148pt.
+
+Overfull \hbox (660.4213pt too wide) in paragraph at lines 263--264
+ [][] 
+ []
+
+<Images/SequenceDiagrams/4_Add_a_route.png, id=576, 909.3975pt x 891.33pt>
+File: Images/SequenceDiagrams/4_Add_a_route.png Graphic file (type png)
+
+<use Images/SequenceDiagrams/4_Add_a_route.png>
+Package pdftex.def Info: Images/SequenceDiagrams/4_Add_a_route.png used on inpu
+t line 269.
+(pdftex.def)             Requested size: 702.51396pt x 688.5567pt.
+
+Overfull \hbox (247.26985pt too wide) in paragraph at lines 269--270
+ [][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 23.59999pt on input line 271.
+
+
+<Images/SequenceDiagrams/5_Appointment_Change.png, id=577, 730.22812pt x 626.34
+pt>
+File: Images/SequenceDiagrams/5_Appointment_Change.png Graphic file (type png)
+ <use Images/SequenceDiagrams/5_Appointment_Change.png>
+Package pdftex.def Info: Images/SequenceDiagrams/5_Appointment_Change.png used 
+on input line 275.
+(pdftex.def)             Requested size: 730.22633pt x 626.33846pt.
+
+Overfull \hbox (274.98222pt too wide) in paragraph at lines 275--276
+ [][] 
+ []
+
+
+<Images/SequenceDiagrams/6_Appointment_Delete.png, id=578, 740.7675pt x 626.34p
+t>
+File: Images/SequenceDiagrams/6_Appointment_Delete.png Graphic file (type png)
+ <use Images/SequenceDiagrams/6_Appointment_Delete.png>
+Package pdftex.def Info: Images/SequenceDiagrams/6_Appointment_Delete.png used 
+on input line 281.
+(pdftex.def)             Requested size: 740.76569pt x 626.33846pt.
+
+Overfull \hbox (285.52158pt too wide) in paragraph at lines 281--282
+ [][] 
+ []
+
+<Images/SequenceDiagrams/7_Add_a_route.png, id=579, 909.3975pt x 892.08281pt>
+File: Images/SequenceDiagrams/7_Add_a_route.png Graphic file (type png)
+
+<use Images/SequenceDiagrams/7_Add_a_route.png>
+Package pdftex.def Info: Images/SequenceDiagrams/7_Add_a_route.png used on inpu
+t line 287.
+(pdftex.def)             Requested size: 701.93115pt x 688.5567pt.
+
+Overfull \hbox (246.68704pt too wide) in paragraph at lines 287--288
+ [][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 23.59999pt on input line 289.
+
+
+<Images/SequenceDiagrams/8_Route_Delete.png, id=580, 740.7675pt x 627.09282pt>
+File: Images/SequenceDiagrams/8_Route_Delete.png Graphic file (type png)
+
+<use Images/SequenceDiagrams/8_Route_Delete.png>
+Package pdftex.def Info: Images/SequenceDiagrams/8_Route_Delete.png used on inp
+ut line 293.
+(pdftex.def)             Requested size: 740.76569pt x 627.0913pt.
+
+Overfull \hbox (285.52158pt too wide) in paragraph at lines 293--294
+ [][] 
+ []
+
+<Images/SequenceDiagrams/9_Report.png, id=581, 725.71124pt x 766.36313pt>
+File: Images/SequenceDiagrams/9_Report.png Graphic file (type png)
+
+<use Images/SequenceDiagrams/9_Report.png>
+Package pdftex.def Info: Images/SequenceDiagrams/9_Report.png used on input lin
+e 299.
+(pdftex.def)             Requested size: 652.07104pt x 688.5567pt.
+
+Overfull \hbox (196.82693pt too wide) in paragraph at lines 299--300
+ [][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 23.59999pt on input line 301.
+
+
+<Images/SequenceDiagrams/10_Add_profile_preferences.png, id=582, 740.7675pt x 8
+40.89156pt>
+File: Images/SequenceDiagrams/10_Add_profile_preferences.png Graphic file (type
+ png)
+ <use Images/SequenceDiagrams/10_Add_profile_preferences.png>
+Package pdftex.def Info: Images/SequenceDiagrams/10_Add_profile_preferences.png
+ used on input line 305.
+(pdftex.def)             Requested size: 606.57423pt x 688.5567pt.
+
+Overfull \hbox (151.33012pt too wide) in paragraph at lines 305--306
+ [][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 23.59999pt on input line 307.
+
+) [33 <./Images/SequenceDiagrams/1_User_Registration.png>] [34 <./Images/Sequen
+ceDiagrams/2_User_Login.png>] [35 <./Images/SequenceDiagrams/3_Appointment_addi
+tion.png>] [36 <./Images/SequenceDiagrams/4_Add_a_route.png>] [37 <./Images/Seq
+uenceDiagrams/5_Appointment_Change.png>] [38 <./Images/SequenceDiagrams/6_Appoi
+ntment_Delete.png>] [39 <./Images/SequenceDiagrams/7_Add_a_route.png>] [40 <./I
+mages/SequenceDiagrams/8_Route_Delete.png>] [41 <./Images/SequenceDiagrams/9_Re
+port.png>] [42 <./Images/SequenceDiagrams/10_Add_profile_preferences.png>]
+(./Files/alloy.tex <Images/Alloy/data.png, id=634, 357.58594pt x 677.53125pt>
 File: Images/Alloy/data.png Graphic file (type png)
 
 <use Images/Alloy/data.png>
 Package pdftex.def Info: Images/Alloy/data.png used on input line 6.
 (pdftex.def)             Requested size: 240.27428pt x 455.24411pt.
 
-<Images/Alloy/data1.png, id=543, 167.87718pt x 256.70906pt>
+<Images/Alloy/data1.png, id=635, 167.87718pt x 256.70906pt>
 File: Images/Alloy/data1.png Graphic file (type png)
 
 <use Images/Alloy/data1.png>
@@ -1392,46 +1546,35 @@ Package pdftex.def Info: Images/Alloy/data1.png used on input line 12.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [32
+ [43
 
  <./Images/Alloy/data.png (PNG copy)>]
-<Images/Alloy/data2.png, id=548, 686.565pt x 651.18282pt>
+<Images/Alloy/data2.png, id=641, 686.565pt x 651.18282pt>
 File: Images/Alloy/data2.png Graphic file (type png)
 
 <use Images/Alloy/data2.png>
 Package pdftex.def Info: Images/Alloy/data2.png used on input line 20.
-(pdftex.def)             Requested size: 686.56332pt x 651.18123pt.
+(pdftex.def)             Requested size: 455.24411pt x 431.77917pt.
 
-Overfull \hbox (231.31921pt too wide) in paragraph at lines 20--21
- [][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [33 <./Images/Alloy/data1.png (PNG copy)>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [34]
-Overfull \vbox (15.75967pt too high) has occurred while \output is active []
-
-
-[35 <./Images/Alloy/data2.png (PNG copy)>]
-<Images/Alloy/data3.png, id=562, 556.32843pt x 146.79843pt>
+<Images/Alloy/data3.png, id=642, 556.32843pt x 146.79843pt>
 File: Images/Alloy/data3.png Graphic file (type png)
 
 <use Images/Alloy/data3.png>
 Package pdftex.def Info: Images/Alloy/data3.png used on input line 26.
 (pdftex.def)             Requested size: 455.24411pt x 120.12685pt.
 
-<Images/Alloy/data4.png, id=563, 681.29532pt x 513.41812pt>
+<Images/Alloy/data4.png, id=643, 681.29532pt x 513.41812pt>
 File: Images/Alloy/data4.png Graphic file (type png)
 
 <use Images/Alloy/data4.png>
 Package pdftex.def Info: Images/Alloy/data4.png used on input line 34.
 (pdftex.def)             Requested size: 455.24411pt x 343.07175pt.
 
-<Images/Alloy/data5.png, id=564, 369.63094pt x 445.665pt>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [44 <./Images/Alloy/data1.png (PNG copy)> <./Images/Alloy/data3.png (PNG copy)
+>] [45 <./Images/Alloy/data2.png (PNG copy)>]
+<Images/Alloy/data5.png, id=652, 369.63094pt x 445.665pt>
 File: Images/Alloy/data5.png Graphic file (type png)
 
 <use Images/Alloy/data5.png>
@@ -1440,16 +1583,15 @@ Package pdftex.def Info: Images/Alloy/data5.png used on input line 42.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [36 <./Images/Alloy/data3.png (PNG copy)> <./Images/Alloy/data4.png (PNG copy)
->]
-<Images/Alloy/data6.png, id=569, 1283.54532pt x 679.78969pt>
+ [46 <./Images/Alloy/data4.png (PNG copy)>]
+<Images/Alloy/data6.png, id=657, 1283.54532pt x 679.78969pt>
 File: Images/Alloy/data6.png Graphic file (type png)
 
 <use Images/Alloy/data6.png>
 Package pdftex.def Info: Images/Alloy/data6.png used on input line 50.
 (pdftex.def)             Requested size: 688.5567pt x 364.67448pt.
-) [37 <./Images/Alloy/data5.png (PNG copy)>]
-[38 <./Images/Alloy/data6.png (PNG copy)>] (./Files/effort.tex) [39
+) [47 <./Images/Alloy/data5.png (PNG copy)>]
+[48 <./Images/Alloy/data6.png (PNG copy)>] (./Files/effort.tex) [49
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 109.
@@ -1459,26 +1601,27 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 109.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 109.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 109.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 7F082E5DA47A81C712E84C9506D2A952;4115.
+(rerunfilecheck)             Checksum: E1A976ADD576FE15197DD6639A6AFB82;4170.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 109.
  ) 
 Here is how much of TeX's memory you used:
- 20450 strings out of 494953
- 375849 string characters out of 6180976
- 442949 words of memory out of 5000000
- 23139 multiletter control sequences out of 15000+600000
- 33767 words of font info for 56 fonts, out of 8000000 for 9000
+ 20536 strings out of 494953
+ 378590 string characters out of 6180976
+ 443719 words of memory out of 5000000
+ 23191 multiletter control sequences out of 15000+600000
+ 36615 words of font info for 58 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  59i,21n,65p,2610b,597s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texlive/texmf-dist
 /fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on main.pdf (39 pages, 1308122 bytes).
+texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/font
+s/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (49 pages, 1710413 bytes).
 PDF statistics:
- 634 PDF objects out of 1000 (max. 8388607)
- 550 compressed objects within 6 object streams
- 142 named destinations out of 1000 (max. 500000)
- 601 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 731 PDF objects out of 1000 (max. 8388607)
+ 615 compressed objects within 7 object streams
+ 163 named destinations out of 1000 (max. 500000)
+ 659 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,19 +1,29 @@
-\contentsline {figure}{\numberline {1}{\ignorespaces UML class diagram perspective \relax }}{14}{figure.caption.5}
-\contentsline {figure}{\numberline {2}{\ignorespaces Use case - User Registration \relax }}{21}{figure.caption.6}
-\contentsline {figure}{\numberline {3}{\ignorespaces Use case - User Login \relax }}{22}{figure.caption.7}
-\contentsline {figure}{\numberline {4}{\ignorespaces Use case - User adds an Appointment \relax }}{23}{figure.caption.8}
-\contentsline {figure}{\numberline {5}{\ignorespaces Use case - User adds a route to an appointment \relax }}{24}{figure.caption.9}
-\contentsline {figure}{\numberline {6}{\ignorespaces Use case - User changes appointment details \relax }}{25}{figure.caption.10}
-\contentsline {figure}{\numberline {7}{\ignorespaces Use case - User delete appointment \relax }}{26}{figure.caption.11}
-\contentsline {figure}{\numberline {8}{\ignorespaces Use case - User modifies a route\relax }}{27}{figure.caption.12}
-\contentsline {figure}{\numberline {9}{\ignorespaces Use case - User deletes a route \relax }}{28}{figure.caption.13}
-\contentsline {figure}{\numberline {10}{\ignorespaces Use case - The user reports events and disservices \relax }}{29}{figure.caption.14}
-\contentsline {figure}{\numberline {11}{\ignorespaces Use case - The user adds a profile preference \relax }}{30}{figure.caption.15}
-\contentsline {figure}{\numberline {12}{\ignorespaces Use case diagram \relax }}{31}{figure.caption.16}
-\contentsline {figure}{\numberline {13}{\ignorespaces Alloy signatures 1/2 \relax }}{32}{figure.caption.17}
-\contentsline {figure}{\numberline {14}{\ignorespaces Alloy signatures 2/2 \relax }}{33}{figure.caption.18}
-\contentsline {figure}{\numberline {15}{\ignorespaces Alloy facts 1/2 \relax }}{35}{figure.caption.19}
-\contentsline {figure}{\numberline {16}{\ignorespaces Alloy facts 2/2 \relax }}{36}{figure.caption.20}
-\contentsline {figure}{\numberline {17}{\ignorespaces Alloy predicates \relax }}{36}{figure.caption.21}
-\contentsline {figure}{\numberline {18}{\ignorespaces Alloy consistency results \relax }}{37}{figure.caption.22}
-\contentsline {figure}{\numberline {19}{\ignorespaces Alloy generated world \relax }}{38}{figure.caption.23}
+\contentsline {figure}{\numberline {1}{\ignorespaces UML class diagram perspective \relax }}{15}{figure.caption.5}
+\contentsline {figure}{\numberline {2}{\ignorespaces Use case - User Registration \relax }}{22}{figure.caption.6}
+\contentsline {figure}{\numberline {3}{\ignorespaces Use case - User Login \relax }}{23}{figure.caption.7}
+\contentsline {figure}{\numberline {4}{\ignorespaces Use case - User adds an Appointment \relax }}{24}{figure.caption.8}
+\contentsline {figure}{\numberline {5}{\ignorespaces Use case - User adds a route to an appointment \relax }}{25}{figure.caption.9}
+\contentsline {figure}{\numberline {6}{\ignorespaces Use case - User changes appointment details \relax }}{26}{figure.caption.10}
+\contentsline {figure}{\numberline {7}{\ignorespaces Use case - User delete appointment \relax }}{27}{figure.caption.11}
+\contentsline {figure}{\numberline {8}{\ignorespaces Use case - User modifies a route\relax }}{28}{figure.caption.12}
+\contentsline {figure}{\numberline {9}{\ignorespaces Use case - User deletes a route \relax }}{29}{figure.caption.13}
+\contentsline {figure}{\numberline {10}{\ignorespaces Use case - The user reports events and disservices \relax }}{30}{figure.caption.14}
+\contentsline {figure}{\numberline {11}{\ignorespaces Use case - The user adds a profile preference \relax }}{31}{figure.caption.15}
+\contentsline {figure}{\numberline {12}{\ignorespaces Use case diagram \relax }}{32}{figure.caption.16}
+\contentsline {figure}{\numberline {13}{\ignorespaces Sequence Diagram - User registrate new profile \relax }}{33}{figure.caption.17}
+\contentsline {figure}{\numberline {14}{\ignorespaces Sequence Diagram - User logs in \relax }}{34}{figure.caption.18}
+\contentsline {figure}{\numberline {15}{\ignorespaces Sequence Diagram - User add an appointment \relax }}{35}{figure.caption.19}
+\contentsline {figure}{\numberline {16}{\ignorespaces Sequence Diagram - User chooses a route \relax }}{36}{figure.caption.20}
+\contentsline {figure}{\numberline {17}{\ignorespaces Sequence Diagram - User modificates an appointment \relax }}{37}{figure.caption.21}
+\contentsline {figure}{\numberline {18}{\ignorespaces Sequence Diagram - User deletes an appointment \relax }}{38}{figure.caption.22}
+\contentsline {figure}{\numberline {19}{\ignorespaces Sequence Diagram - User adds a new route to appointment \relax }}{39}{figure.caption.23}
+\contentsline {figure}{\numberline {20}{\ignorespaces Sequence Diagram - User deletes a saved route \relax }}{40}{figure.caption.24}
+\contentsline {figure}{\numberline {21}{\ignorespaces Sequence Diagram - User report \relax }}{41}{figure.caption.25}
+\contentsline {figure}{\numberline {22}{\ignorespaces Sequence Diagram - User adds a preferences profile \relax }}{42}{figure.caption.26}
+\contentsline {figure}{\numberline {23}{\ignorespaces Alloy signatures 1/2 \relax }}{43}{figure.caption.27}
+\contentsline {figure}{\numberline {24}{\ignorespaces Alloy signatures 2/2 \relax }}{44}{figure.caption.28}
+\contentsline {figure}{\numberline {26}{\ignorespaces Alloy facts 2/2 \relax }}{44}{figure.caption.30}
+\contentsline {figure}{\numberline {25}{\ignorespaces Alloy facts 1/2 \relax }}{45}{figure.caption.29}
+\contentsline {figure}{\numberline {27}{\ignorespaces Alloy predicates \relax }}{46}{figure.caption.31}
+\contentsline {figure}{\numberline {28}{\ignorespaces Alloy consistency results \relax }}{47}{figure.caption.32}
+\contentsline {figure}{\numberline {29}{\ignorespaces Alloy generated world \relax }}{48}{figure.caption.33}
