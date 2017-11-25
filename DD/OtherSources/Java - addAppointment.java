@@ -1,4 +1,4 @@
-// inside class Manager
+// inside CalendarManager
 public void addAppointment(User user, Appointment app) {
     Calendar cal = user.getCalendar();
     DateTime begin = app.getBeginTime();

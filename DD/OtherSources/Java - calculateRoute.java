@@ -3,7 +3,7 @@ public List<Route> calculateRoutes(User user, Position from, Position to, DateTi
     // load the preference profile, the set of vehicles in order of priority and the list of pauses
     PreferenceProfile profile = user.getPreferenceProfile();  // TODO: select a specific profile preference
     Set<TransportMean> availableVehicles = profile.getOrderedTransportSet();
-    List<TraavelPause> pauses = profile.getTravelPauses();
+    List<TravelPause> pauses = profile.getTravelPauses();
     
     List<Route> possibleRoutes = new ArrayList<Route>();
     for (TransportMean tm : availableVehicles) {
@@ -12,12 +12,11 @@ public List<Route> calculateRoutes(User user, Position from, Position to, DateTi
             continue;
         }
         // don't calculate routes for vehicles which are out of their timeslot
-        for (DisableMean forbiddenTimeslot : tm.getForbiddenTimeslots()) {
-            if (forbiddenTimeslot.getStart() <= start && forbiddenTimeslot.getEnd() >= start
-                || forbiddenTimeslot.getStart() <= end && forbiddenTimeslot.getEnd() >= end
-                || forbiddenTimeslot.getStart() >= start && forbiddenTimeslot.getEnd() <= end) {
-                continue;
-            }
+        DisableMean forbiddenTimeslot = tm.getForbiddenTimeslot();
+        if (forbiddenTimeslot.getStart() <= start && forbiddenTimeslot.getEnd() >= start
+            || forbiddenTimeslot.getStart() <= end && forbiddenTimeslot.getEnd() >= end
+            || forbiddenTimeslot.getStart() >= start && forbiddenTimeslot.getEnd() <= end) {
+            continue;
         }
         
         // calculate the route with that vehicle
