@@ -19,6 +19,6 @@
 \contentsline {section}{\numberline {3}Algorithm Design}{10}{section.3}
 \contentsline {section}{\numberline {4}User Interface Design}{11}{section.4}
 \contentsline {section}{\numberline {5}Requirements Traceability}{12}{section.5}
-\contentsline {section}{\numberline {6}Implementation, Integration and Test Plan}{13}{section.6}
-\contentsline {section}{\numberline {7}Effort Spent}{14}{section.7}
-\contentsline {section}{References}{15}{section*.16}
+\contentsline {section}{\numberline {6}Implementation, Integration and Test Plan}{17}{section.6}
+\contentsline {section}{\numberline {7}Effort Spent}{18}{section.7}
+\contentsline {section}{References}{19}{section*.16}

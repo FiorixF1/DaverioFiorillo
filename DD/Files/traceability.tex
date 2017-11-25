@@ -1,1 +1,229 @@
  
+ %Requirement Traceability description
+ 
+ 
+ 
+ %Requiremnt Traceability list
+ \begin{itemize}
+ 	\item[G1] Allow the user to add an appointment
+ 	\subitem[G1.1] The user can add the date of the appointment through a calendar
+ 	\begin{itemize}[leftmargin=1in]
+ 		\item Web Application
+ 		\item Mobile Application
+ 	\end{itemize}
+ 	\subitem[G1.2] The user can select the location through a map
+ 	\begin{itemize}[leftmargin=1in]
+ 		\item Web Application
+ 		\item Mobile Application
+ 		\item SessionManager
+ 		\item CalendarManager
+ 		\item Map Services
+ 	\end{itemize}
+ 	\subitem[G1.3] The appointment must be processed by the system
+ 	\begin{itemize}[leftmargin=1in]
+ 		\item SessionManager
+ 		\item CalendarManager
+ 		\item Web Application
+ 		\item Mobile Application
+ 	\end{itemize}
+ 	\item[G2] - Provide a route to the user for reaching the appointments
+ 	\subitem[G2.1] The user must reach on time his/her appointments
+ 	\begin{itemize}[leftmargin=1in]
+ 		\item CalendarManager
+ 		\item RouteManager
+ 		\item Routing Services
+ 	\end{itemize}
+ 	\subitem[G2.2] The user can choose the starting location and time of the route
+ 	\begin{itemize}[leftmargin=1in]
+ 		\item Web Application
+ 		\item Mobile Application
+ 		\item SessionManager
+ 		\item CalendarManager
+ 		\item RouteManager
+ 	\end{itemize}
+ 	\subitem[G2.3] Generate routes according to the preferences of the user
+ 	\begin{itemize}[leftmargin=1in]
+ 		\item RouteManager
+ 		\item PreferenceManager
+ 		\item Database
+ 	\end{itemize}
+ 	\subitem[G2.4] The application provides a route for each objective, minimizing each of these attributes: length, duration, number of changes, carbon footprint
+ 	\begin{itemize}[leftmargin=1in]
+ 		\item RouteManager
+ 		\item PreferenceManager
+ 	\end{itemize}
+ 	\subitem[G2.5] Always provide a route
+ 	\begin{itemize}[leftmargin=1in]
+ 		\item RouteManager
+ 		\item CalendarManager
+ 		\item NotificationManager
+ 		\item Push Gateway
+ 	\end{itemize}
+ 	\subitem[G2.6] During strike days, public transportation must not be available
+ 	\begin{itemize}[leftmargin=1in]
+ 		\item CalendarManager
+ 		\item ReportManager
+ 	\end{itemize}
+ 	\subitem[G2.7] Report unfavourable weather conditions
+ 	\begin{itemize}[leftmargin=1in]
+ 		\item NotificationManager
+ 		\item Push Gateway
+ 	\end{itemize}
+ 	\subitem[G2.8] Update unfavourable weather conditions
+ 	\begin{itemize}[leftmargin=1in]
+ 		\item NotificationManager
+ 		\item Weather Services
+ 	\end{itemize}
+ 	\subitem[G2.9] The user can save one route among the shown ones
+ 	\begin{itemize}[leftmargin=1in]
+ 		\item Web Application
+ 		\item Mobile Application
+ 		\item SessionManager
+ 		\item CalendarManager
+ 		\item Database
+ 	\end{itemize}
+ 	\item[G3] Allow the user to sign up into the application
+ 	\subitem[G3.1] The registration must allow the univocal recognition of the user
+ 	\begin{itemize}[leftmargin=1in]
+ 		\item Web Application
+ 		\item Mobile Application
+ 		\item SessionManager
+ 		\item Database
+ 	\end{itemize}
+ 	\item[G4] Allow the user to log in
+ 	\subitem[G4.1] The system allow the login through e-mail and password
+ 	\begin{itemize}[leftmargin=1in]
+ 		\item Web Application
+ 		\item Mobile Application
+ 		\item SessionManager
+ 		\item Database
+ 	\end{itemize}
+ 	\subitem[G4.2] The application allow the login through telephone number
+ 	\begin{itemize}[leftmargin=1in]
+ 		\item Web Application
+ 		\item Mobile Application
+ 		\item SessionManager
+ 		\item Database
+ 	\end{itemize}
+ 	\item[G5] Allow the user to add his own preferences
+ 	\subitem[G5.1] The user must be logged
+ 	\begin{itemize}[leftmargin=1in]
+ 		\item Web Application
+ 		\item Mobile Application
+ 		\item SessionManager
+ 		\item Database
+ 	\end{itemize}
+ 	\subitem[G5.2] The preferences are synchronized between the application and the database
+ 	\begin{itemize}[leftmargin=1in]
+ 		\item SessionManager
+ 		\item PreferenceManager
+ 		\item Database
+ 	\end{itemize}
+ 	\subitem[G5.3] The user can choose the available transport means
+ 	\begin{itemize}[leftmargin=1in]
+ 		\item Web Application
+ 		\item Mobile Application
+ 		\item SessionManager
+ 		\item PreferenceManager
+ 		\item Database
+ 	\end{itemize}
+ 	\subitem[G5.4] The user can add a priority to the means of transport
+ 	\begin{itemize}[leftmargin=1in]
+ 		\item Web Application
+ 		\item Mobile Application
+ 		\item SessionManager
+ 		\item PreferenceManager
+ 		\item Database
+ 	\end{itemize}
+ 	\subitem[G5.5] The user can add the maximum length of routes on foot or by bicycle
+ 	\begin{itemize}[leftmargin=1in]
+ 		\item Web Application
+ 		\item Mobile Application
+ 		\item SessionManager
+ 		\item PreferenceManager
+ 		\item Database
+ 	\end{itemize}
+ 	\subitem[G5.6] For each vehicle the user can choose a time slot of validity
+ 	\begin{itemize}[leftmargin=1in]
+ 		\item Web Application
+ 		\item Mobile Application
+ 		\item SessionManager
+ 		\item PreferenceManager
+ 		\item Database
+ 	\end{itemize}
+ 	\subitem[G5.7] The user can set Flexible Lunch
+ 	\begin{itemize}[leftmargin=1in]
+ 		\item Web Application
+ 		\item Mobile Application
+ 		\item SessionManager
+ 		\item PreferenceManager
+ 		\item Database
+ 	\end{itemize}
+ 	\subitem[G5.8] The user can add breaks for fixed moments of the day
+ 	\begin{itemize}[leftmargin=1in]
+ 		\item Web Application
+ 		\item Mobile Application
+ 		\item SessionManager
+ 		\item PreferenceManager
+ 		\item Database
+ 	\end{itemize}
+ 	\subitem[G5.9] The user can add a private car or bicycle
+ 	\begin{itemize}[leftmargin=1in]
+ 		\item Web Application
+ 		\item Mobile Application
+ 		\item SessionManager
+ 		\item PreferenceManager
+ 		\item Database
+ 	\end{itemize}
+ 	\subitem[G5.10] The user can organize his preferences in “Preferences Profiles"
+ 	\begin{itemize}[leftmargin=1in]
+ 		\item Web Application
+ 		\item Mobile Application
+ 		\item SessionManager
+ 		\item PreferenceManager
+ 		\item Database
+ 	\end{itemize}
+ 	\item[G6] Allow the user to manage his account
+ 	\subitem[G6.1] The user must be able to remove appointments and routes
+ 	\begin{itemize}[leftmargin=1in]
+ 		\item Web Application
+ 		\item Mobile Application
+ 		\item SessionManager
+ 		\item CalendarManager
+ 		\item Database
+ 	\end{itemize}
+ 	\subitem[G6.2] The user must be able to modify appointments and routes
+ 	\begin{itemize}[leftmargin=1in]
+ 		\item Web Application
+ 		\item Mobile Application
+ 		\item SessionManager
+ 		\item CalendarManager
+ 		\item RouteManager
+ 		\item Database
+ 	\end{itemize}
+ 	\subitem[G6.3] The user must be able to delete his account
+ 	\begin{itemize}[leftmargin=1in]
+ 		\item Web Application
+ 		\item Mobile Application
+ 		\item SessionManager
+ 		\item Database
+ 	\end{itemize}
+ 	\item[G7] Allow the user to report events and disservices 
+ 	\subitem[G7.1] The user can report strikes using the application
+ 	\begin{itemize}[leftmargin=1in]
+ 		\item Web Application
+ 		\item Mobile Application
+ 		\item SessionManager
+ 		\item ReportManager
+ 		\item Database
+ 	\end{itemize}
+ 	\subitem[G7.2] The user can report faults, malfunctions and suggestions
+ 	\begin{itemize}[leftmargin=1in]
+ 		\item Web Application
+ 		\item Mobile Application
+ 		\item SessionManager
+ 		\item ReportManager
+ 		\item Database
+ 	\end{itemize}
+ 
+ \end{itemize}
