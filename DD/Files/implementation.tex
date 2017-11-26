@@ -1,6 +1,6 @@
 %Implementation, Integration and Test Plan
 
-\subsection{Integration Strategy}
+\subsection{Integration conditions}
 
 \subsubsection{Entry Criteria}
 
@@ -46,7 +46,7 @@ It is possible to distinguish three different categories of components, basing t
 		\item \textit{SMS Gateway}
 	\end{enumerate}
 \end{itemize}
-\subsubsection{Integration Strategy}
+\subsection{Implementation, Integration Strategy}
 
 Given the foretold component categorization, it is possible to easily set up a bottom up strategy for the integration of implemented components. This plan aims to reduce the whole testing effort needed to deploy complex drivers and stubs employed in the integration process.
 
@@ -93,9 +93,17 @@ The implementation, integration and testing scheme starts from the bottom with f
 
 \clearpage %Fix pictures position before this and newpage command
 
-\subsection{Test Plan}
+\subsubsection{Test Strategy}
 \label{testplan}
 
+While the system is suppose to be developed mainly through a bottom-up strategy, testing would be performed on each component as soon it is developed. Furthermore, it will also be verified the integration among component and all his dependency through specific integration tests. 
 
-\subsubsection{Testing Strategy}
-\subsubsection{Testing Sequence}
+For some functionalities it is suggested to make exception because, for these ones, it is possible:
+
+\begin{itemize}
+	\item to split the deployment effort required by larger components, increasing atomicity of architecture unit in subcomponents;
+	\item to anticipate the verification of some core features, that the system provides to user, far before the system test;
+	\item to parallelize the development of an otherwise monolithic part of the implementation plan (particularly The \textit{SessionManager} module)
+\end{itemize}
+
+Functionalities should be verified as soon as needed components are available (list of goals and involved components is provide in \textit{Requirement Traceability} section \ref{sect:traceability}).
