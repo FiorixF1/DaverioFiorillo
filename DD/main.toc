@@ -19,23 +19,23 @@
 \contentsline {subsection}{\numberline {2.6}Component interfaces}{10}{subsection.2.6}
 \contentsline {subsection}{\numberline {2.7}Selected architectural styles and patterns}{13}{subsection.2.7}
 \contentsline {subsection}{\numberline {2.8}Other design decisions}{13}{subsection.2.8}
-\contentsline {section}{\numberline {3}Algorithm Design}{16}{section.3}
-\contentsline {subsection}{\numberline {3.1}Check overlapping}{16}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Add appointments and routes}{17}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Remove routes of an appointment}{17}{subsection.3.3}
-\contentsline {subsection}{\numberline {3.4}Remove an appointment}{19}{subsection.3.4}
-\contentsline {subsection}{\numberline {3.5}Updating an appointment}{19}{subsection.3.5}
-\contentsline {subsection}{\numberline {3.6}Calculating a route}{19}{subsection.3.6}
-\contentsline {section}{\numberline {4}User Interface Design}{22}{section.4}
-\contentsline {subsection}{\numberline {4.1}Mock ups}{22}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}UX diagram}{22}{subsection.4.2}
-\contentsline {section}{\numberline {5}Requirements Traceability}{31}{section.5}
-\contentsline {section}{\numberline {6}Implementation, Integration and Test Plan}{36}{section.6}
-\contentsline {subsection}{\numberline {6.1}Integration conditions}{36}{subsection.6.1}
-\contentsline {subsubsection}{\numberline {6.1.1}Entry Criteria}{36}{subsubsection.6.1.1}
-\contentsline {subsubsection}{\numberline {6.1.2}Elements to be integrated}{36}{subsubsection.6.1.2}
-\contentsline {subsection}{\numberline {6.2}Implementation, Integration Strategy}{37}{subsection.6.2}
-\contentsline {subsubsection}{\numberline {6.2.1}Integration sequence}{37}{subsubsection.6.2.1}
-\contentsline {subsubsection}{\numberline {6.2.2}Test Strategy}{39}{subsubsection.6.2.2}
-\contentsline {section}{\numberline {7}Effort Spent}{40}{section.7}
-\contentsline {section}{References}{41}{section*.38}
+\contentsline {section}{\numberline {3}Algorithm Design}{14}{section.3}
+\contentsline {subsection}{\numberline {3.1}Check overlapping}{14}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Add appointments and routes}{14}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Remove routes of an appointment}{14}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Remove an appointment}{17}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}Updating an appointment}{17}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.6}Calculating a route}{17}{subsection.3.6}
+\contentsline {section}{\numberline {4}User Interface Design}{20}{section.4}
+\contentsline {subsection}{\numberline {4.1}Mock ups}{20}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}UX diagram}{20}{subsection.4.2}
+\contentsline {section}{\numberline {5}Requirements Traceability}{29}{section.5}
+\contentsline {section}{\numberline {6}Implementation, Integration and Test Plan}{34}{section.6}
+\contentsline {subsection}{\numberline {6.1}Integration conditions}{34}{subsection.6.1}
+\contentsline {subsubsection}{\numberline {6.1.1}Entry Criteria}{34}{subsubsection.6.1.1}
+\contentsline {subsubsection}{\numberline {6.1.2}Elements to be integrated}{34}{subsubsection.6.1.2}
+\contentsline {subsection}{\numberline {6.2}Implementation, Integration Strategy}{35}{subsection.6.2}
+\contentsline {subsubsection}{\numberline {6.2.1}Integration sequence}{35}{subsubsection.6.2.1}
+\contentsline {subsubsection}{\numberline {6.2.2}Test Strategy}{37}{subsubsection.6.2.2}
+\contentsline {section}{\numberline {7}Effort Spent}{38}{section.7}
+\contentsline {section}{References}{39}{section*.36}
