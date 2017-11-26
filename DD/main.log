@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.10.15)  26 NOV 2017 22:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.10.15)  26 NOV 2017 22:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1119,9 +1119,6 @@ LaTeX Warning: Label `fig:metamodel2' multiply defined.
 
 LaTeX Warning: Label `fig:metamodel2' multiply defined.
 
-
-LaTeX Warning: Label `fig:metamodel2' multiply defined.
-
 )
 \openout1 = `main.aux'.
 
@@ -1243,7 +1240,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 14.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<Images/PolimiLogo.png, id=171, 405.515pt x 125.46875pt>
+<Images/PolimiLogo.png, id=167, 405.515pt x 125.46875pt>
 <use Images/PolimiLogo.png> <use Images/PolimiLogo.png>
 File: Images/PolimiLogo.png Graphic file (type png)
 
@@ -1276,7 +1273,7 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- [3] [4] (./main.lof)
+ [3] (./main.lof)
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
@@ -1284,31 +1281,31 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 \tf@lot=\write7
 \openout7 = `main.lot'.
 
- [5]
-(./Files/introduction.tex
+ [4] (./Files/introduction.tex
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
- [6
 
-]) [7] (./Files/architecture.tex
-<"Images/Architecture - Component View".png, id=306, 578.16pt x 382.42876pt>
+[5
+
+]) [6] (./Files/architecture.tex
+<"Images/Architecture - Component View".png, id=292, 578.16pt x 382.42876pt>
 File: "Images/Architecture - Component View".png Graphic file (type png)
 
 <use "Images/Architecture - Component View".png>
 Package pdftex.def Info: "Images/Architecture - Component View".png used on inp
 ut line 25.
 (pdftex.def)             Requested size: 455.24411pt x 301.12338pt.
- [8
+ [7
 
-] [9 <./Images/Architecture - Component View.png>]
-<"Images/Architecture - Deployment View".png, id=318, 851.43094pt x 300.3722pt>
+] [8 <./Images/Architecture - Component View.png>]
+<"Images/Architecture - Deployment View".png, id=304, 851.43094pt x 300.3722pt>
 File: "Images/Architecture - Deployment View".png Graphic file (type png)
 <use "Images/Architecture - Deployment View".png>
 Package pdftex.def Info: "Images/Architecture - Deployment View".png used on in
 put line 62.
 (pdftex.def)             Requested size: 455.24411pt x 160.60356pt.
 
-<"Images/Architecture - Runtime View - Log in".png, id=319, 484.05844pt x 398.9
+<"Images/Architecture - Runtime View - Log in".png, id=305, 484.05844pt x 398.9
 9063pt>
 File: "Images/Architecture - Runtime View - Log in".png Graphic file (type png)
 
@@ -1317,7 +1314,7 @@ Package pdftex.def Info: "Images/Architecture - Runtime View - Log in".png used
  on input line 73.
 (pdftex.def)             Requested size: 455.24411pt x 375.25824pt.
 
-<"Images/Architecture - Runtime View - Add appointment".png, id=320, 494.59781p
+<"Images/Architecture - Runtime View - Add appointment".png, id=306, 494.59781p
 t x 264.23718pt>
 File: "Images/Architecture - Runtime View - Add appointment".png Graphic file (
 type png)
@@ -1327,7 +1324,7 @@ Package pdftex.def Info: "Images/Architecture - Runtime View - Add appointment"
 .png used on input line 79.
 (pdftex.def)             Requested size: 455.24411pt x 243.21pt.
 
-<"Images/Architecture - Runtime View - Add route".png, id=321, 798.73407pt x 38
+<"Images/Architecture - Runtime View - Add route".png, id=307, 798.73407pt x 38
 2.42876pt>
 File: "Images/Architecture - Runtime View - Add route".png Graphic file (type p
 ng)
@@ -1336,7 +1333,7 @@ Package pdftex.def Info: "Images/Architecture - Runtime View - Add route".png u
 sed on input line 85.
 (pdftex.def)             Requested size: 455.24411pt x 217.96915pt.
 
-<"Images/Architecture - Runtime View - Notification".png, id=322, 441.90094pt x
+<"Images/Architecture - Runtime View - Notification".png, id=308, 441.90094pt x
  366.61969pt>
 File: "Images/Architecture - Runtime View - Notification".png Graphic file (typ
 e png)
@@ -1345,19 +1342,18 @@ Package pdftex.def Info: "Images/Architecture - Runtime View - Notification".pn
 g used on input line 91.
 (pdftex.def)             Requested size: 455.24411pt x 377.7064pt.
 
-[10 <./Images/Architecture - Deployment View.png>] [11 <./Images/Architecture -
- Runtime View - Log in.png> <./Images/Architecture - Runtime View - Add appoint
-ment.png>] [12 <./Images/Architecture - Runtime View - Add route.png> <./Images
-/Architecture - Runtime View - Notification.png>]) [13] (./Files/algorithms.tex
-
-<"Images/Algorithm - Check overlapping".png, id=345, 725.71124pt x 521.69907pt>
+[9 <./Images/Architecture - Deployment View.png>] [10 <./Images/Architecture - 
+Runtime View - Log in.png> <./Images/Architecture - Runtime View - Add appointm
+ent.png>] [11 <./Images/Architecture - Runtime View - Add route.png> <./Images/
+Architecture - Runtime View - Notification.png>]) [12] (./Files/algorithms.tex
+<"Images/Algorithm - Check overlapping".png, id=331, 725.71124pt x 521.69907pt>
 File: "Images/Algorithm - Check overlapping".png Graphic file (type png)
 <use "Images/Algorithm - Check overlapping".png>
 Package pdftex.def Info: "Images/Algorithm - Check overlapping".png used on inp
 ut line 24.
 (pdftex.def)             Requested size: 455.24411pt x 327.2711pt.
 
-<"Images/Algorithm - Add appointment".png, id=346, 344.03531pt x 147.55125pt>
+<"Images/Algorithm - Add appointment".png, id=332, 344.03531pt x 147.55125pt>
 File: "Images/Algorithm - Add appointment".png Graphic file (type png)
 
 <use "Images/Algorithm - Add appointment".png>
@@ -1365,7 +1361,7 @@ Package pdftex.def Info: "Images/Algorithm - Add appointment".png used on input
  line 48.
 (pdftex.def)             Requested size: 455.24411pt x 195.24779pt.
 
-<"Images/Algorithm - Add route".png, id=347, 323.70938pt x 161.85469pt>
+<"Images/Algorithm - Add route".png, id=333, 323.70938pt x 161.85469pt>
 File: "Images/Algorithm - Add route".png Graphic file (type png)
 
 <use "Images/Algorithm - Add route".png>
@@ -1373,7 +1369,7 @@ Package pdftex.def Info: "Images/Algorithm - Add route".png used on input line
 54.
 (pdftex.def)             Requested size: 455.24411pt x 227.63474pt.
 
-<"Images/Algorithm - Remove all routes of an appointment".png, id=348, 436.6312
+<"Images/Algorithm - Remove all routes of an appointment".png, id=334, 436.6312
 6pt x 244.66406pt>
 File: "Images/Algorithm - Remove all routes of an appointment".png Graphic file
  (type png)
@@ -1382,58 +1378,58 @@ File: "Images/Algorithm - Remove all routes of an appointment".png Graphic file
 Package pdftex.def Info: "Images/Algorithm - Remove all routes of an appointmen
 t".png used on input line 76.
 (pdftex.def)             Requested size: 455.24411pt x 255.0942pt.
- [14
+ [13
 
 ]
-[15 <./Images/Algorithm - Check overlapping.png> <./Images/Algorithm - Add appo
-intment.png>] [16 <./Images/Algorithm - Add route.png> <./Images/Algorithm - Re
+[14 <./Images/Algorithm - Check overlapping.png> <./Images/Algorithm - Add appo
+intment.png>] [15 <./Images/Algorithm - Add route.png> <./Images/Algorithm - Re
 move all routes of an appointment.png>]
-<"Images/Algorithm - Remove appointment".png, id=365, 560.8453pt x 103.88812pt>
+<"Images/Algorithm - Remove appointment".png, id=352, 560.8453pt x 103.88812pt>
 File: "Images/Algorithm - Remove appointment".png Graphic file (type png)
 <use "Images/Algorithm - Remove appointment".png>
 Package pdftex.def Info: "Images/Algorithm - Remove appointment".png used on in
 put line 99.
 (pdftex.def)             Requested size: 455.24411pt x 84.32645pt.
 
-<"Images/Algorithm - Update appointment".png, id=366, 666.23906pt x 209.28188pt
+<"Images/Algorithm - Update appointment".png, id=353, 666.23906pt x 209.28188pt
 >
 File: "Images/Algorithm - Update appointment".png Graphic file (type png)
  <use "Images/Algorithm - Update appointment".png>
 Package pdftex.def Info: "Images/Algorithm - Update appointment".png used on in
 put line 123.
 (pdftex.def)             Requested size: 455.24411pt x 143.00594pt.
- [17 <./Images/Algorithm - Remove appointment.png>]
-<"Images/Algorithm - Calculate routes".png, id=372, 962.84718pt x 1123.94907pt>
+ [16 <./Images/Algorithm - Remove appointment.png>]
+<"Images/Algorithm - Calculate routes".png, id=359, 962.84718pt x 1123.94907pt>
 File: "Images/Algorithm - Calculate routes".png Graphic file (type png)
 <use "Images/Algorithm - Calculate routes".png>
 Package pdftex.def Info: "Images/Algorithm - Calculate routes".png used on inpu
 t line 149.
 (pdftex.def)             Requested size: 455.24411pt x 531.41176pt.
-) [18 <./Images/Algorithm - Update appointment.png>] [19 <./Images/Algorithm - 
+) [17 <./Images/Algorithm - Update appointment.png>] [18 <./Images/Algorithm - 
 Calculate routes.png>]
 (./Files/interface.tex
-<"Images/UI - Login".png, id=384, 313.17pt x 424.58624pt>
+<"Images/UI - Login".png, id=370, 313.17pt x 424.58624pt>
 File: "Images/UI - Login".png Graphic file (type png)
 
 <use "Images/UI - Login".png>
 Package pdftex.def Info: "Images/UI - Login".png used on input line 8.
 (pdftex.def)             Requested size: 455.24411pt x 617.22804pt.
 
-<"Images/UI - Signup".png, id=385, 319.1925pt x 423.83344pt>
+<"Images/UI - Signup".png, id=371, 319.1925pt x 423.83344pt>
 File: "Images/UI - Signup".png Graphic file (type png)
 
 <use "Images/UI - Signup".png>
 Package pdftex.def Info: "Images/UI - Signup".png used on input line 14.
 (pdftex.def)             Requested size: 455.24411pt x 604.49274pt.
 
-<"Images/UI - Home".png, id=386, 317.68687pt x 423.83344pt>
+<"Images/UI - Home".png, id=372, 317.68687pt x 423.83344pt>
 File: "Images/UI - Home".png Graphic file (type png)
 
 <use "Images/UI - Home".png>
 Package pdftex.def Info: "Images/UI - Home".png used on input line 20.
 (pdftex.def)             Requested size: 455.24411pt x 607.40297pt.
 
-<"Images/UI - Add appointment".png, id=387, 315.42844pt x 423.83344pt>
+<"Images/UI - Add appointment".png, id=373, 315.42844pt x 423.83344pt>
 File: "Images/UI - Add appointment".png Graphic file (type png)
 
 <use "Images/UI - Add appointment".png>
@@ -1441,49 +1437,49 @@ Package pdftex.def Info: "Images/UI - Add appointment".png used on input line 2
 6.
 (pdftex.def)             Requested size: 455.24411pt x 611.73596pt.
 
-<"Images/UI - Add route".png, id=388, 310.91156pt x 424.58624pt>
+<"Images/UI - Add route".png, id=374, 310.91156pt x 424.58624pt>
 File: "Images/UI - Add route".png Graphic file (type png)
 
 <use "Images/UI - Add route".png>
 Package pdftex.def Info: "Images/UI - Add route".png used on input line 32.
 (pdftex.def)             Requested size: 455.24411pt x 621.6983pt.
 
-<"Images/UI - Preferences".png, id=389, 310.91156pt x 424.58624pt>
+<"Images/UI - Preferences".png, id=375, 310.91156pt x 424.58624pt>
 File: "Images/UI - Preferences".png Graphic file (type png)
 
 <use "Images/UI - Preferences".png>
 Package pdftex.def Info: "Images/UI - Preferences".png used on input line 38.
 (pdftex.def)             Requested size: 455.24411pt x 621.6983pt.
 
-<"Images/UI - Select route".png, id=390, 315.42844pt x 424.58624pt>
+<"Images/UI - Select route".png, id=376, 315.42844pt x 424.58624pt>
 File: "Images/UI - Select route".png Graphic file (type png)
 
 <use "Images/UI - Select route".png>
 Package pdftex.def Info: "Images/UI - Select route".png used on input line 44.
 (pdftex.def)             Requested size: 455.24411pt x 612.82256pt.
 
-<"Images/UI - UX Diagram".png, id=391, 1400.98407pt x 1006.51031pt>
+<"Images/UI - UX Diagram".png, id=377, 1400.98407pt x 1006.51031pt>
 File: "Images/UI - UX Diagram".png Graphic file (type png)
 
 <use "Images/UI - UX Diagram".png>
 Package pdftex.def Info: "Images/UI - UX Diagram".png used on input line 54.
 (pdftex.def)             Requested size: 455.24411pt x 327.05054pt.
-) [20
+) [19
 
-] [21 <./Images/UI - Login.png>]
-[22 <./Images/UI - Signup.png>] [23 <./Images/UI - Home.png>] [24 <./Images/UI 
-- Add appointment.png>] [25 <./Images/UI - Add route.png>] [26 <./Images/UI - P
-references.png>] [27 <./Images/UI - Select route.png>] [28 <./Images/UI - UX Di
-agram.png>] (./Files/traceability.tex [29
+] [20 <./Images/UI - Login.png>]
+[21 <./Images/UI - Signup.png>] [22 <./Images/UI - Home.png>] [23 <./Images/UI 
+- Add appointment.png>] [24 <./Images/UI - Add route.png>] [25 <./Images/UI - P
+references.png>] [26 <./Images/UI - Select route.png>] [27 <./Images/UI - UX Di
+agram.png>] (./Files/traceability.tex [28
 
-] [30] [31] [32]) [33]
-(./Files/implementation.tex [34
+] [29] [30] [31]) [32]
+(./Files/implementation.tex [33
 
 ]
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <10.95> not available
 (Font)              Font shape `T1/ptm/b/it' tried instead on input line 62.
 
-<Images/IntegrationDiagram.png, id=483, 705.38531pt x 426.84468pt>
+<Images/IntegrationDiagram.png, id=470, 705.38531pt x 426.84468pt>
 File: Images/IntegrationDiagram.png Graphic file (type png)
 
 <use Images/IntegrationDiagram.png>
@@ -1494,60 +1490,43 @@ Overfull \hbox (16.82689pt too wide) in paragraph at lines 90--91
  [][] 
  []
 
-[35] [36 <./Images/IntegrationDiagram.png (PNG copy)>]) [37
+[34] [35 <./Images/IntegrationDiagram.png (PNG copy)>]) [36
 
 ]
-(./Files/effort.tex) [38
-
-] (./main.bbl) [39
+(./Files/effort.tex) [37
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 117.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 117.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 113.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 113.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 117.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 117.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 113.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 113.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 379C793F0D7CA8D6C87AEA7AC6F90D76;2696.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 114B442A6F3EA20CB8EA1A9AAC798FC1;2744
-(rerunfilecheck)             After:  27251FA9779200D044B38171DF6264CC;2744.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 117.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 113.
  ) 
 Here is how much of TeX's memory you used:
- 20407 strings out of 494953
- 376134 string characters out of 6180976
- 441135 words of memory out of 5000000
- 23089 multiletter control sequences out of 15000+600000
+ 20393 strings out of 494953
+ 375996 string characters out of 6180976
+ 441053 words of memory out of 5000000
+ 23085 multiletter control sequences out of 15000+600000
  41851 words of font info for 61 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  59i,21n,65p,915b,597s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{figure.caption.36} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.35} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.38} has been referenced but does not exist
-, replaced by a fixed one
-
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/ut
-mr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (39 pages, 1013197 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
+utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (37 pages, 1182961 bytes).
 PDF statistics:
- 566 PDF objects out of 1000 (max. 8388607)
- 469 compressed objects within 5 object streams
- 136 named destinations out of 1000 (max. 500000)
- 456 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 546 PDF objects out of 1000 (max. 8388607)
+ 451 compressed objects within 5 object streams
+ 129 named destinations out of 1000 (max. 500000)
+ 448 words of extra memory for PDF output out of 10000 (max. 10000000)
 
