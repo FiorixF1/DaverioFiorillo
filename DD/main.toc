@@ -10,21 +10,30 @@
 \contentsline {subsection}{\numberline {1.6}Document Structure}{6}{subsection.1.6}
 \contentsline {section}{\numberline {2}Architectural Design}{7}{section.2}
 \contentsline {subsection}{\numberline {2.1}Overview}{7}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}Component view}{7}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3}Deplyment view}{7}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}Runtime view}{7}{subsection.2.4}
-\contentsline {subsection}{\numberline {2.5}Component Interfaces}{7}{subsection.2.5}
-\contentsline {subsection}{\numberline {2.6}Selected architectural styles and patterns}{7}{subsection.2.6}
-\contentsline {subsection}{\numberline {2.7}Other design decisions}{7}{subsection.2.7}
-\contentsline {section}{\numberline {3}Algorithm Design}{10}{section.3}
-\contentsline {section}{\numberline {4}User Interface Design}{11}{section.4}
-\contentsline {section}{\numberline {5}Requirements Traceability}{12}{section.5}
-\contentsline {section}{\numberline {6}Implementation, Integration and Test Plan}{17}{section.6}
-\contentsline {subsection}{\numberline {6.1}Integration conditions}{17}{subsection.6.1}
-\contentsline {subsubsection}{\numberline {6.1.1}Entry Criteria}{17}{subsubsection.6.1.1}
-\contentsline {subsubsection}{\numberline {6.1.2}Elements to be integrated}{17}{subsubsection.6.1.2}
-\contentsline {subsection}{\numberline {6.2}Implementation, Integration Strategy}{18}{subsection.6.2}
-\contentsline {subsubsection}{\numberline {6.2.1}Integration sequence}{18}{subsubsection.6.2.1}
-\contentsline {subsubsection}{\numberline {6.2.2}Test Strategy}{20}{subsubsection.6.2.2}
-\contentsline {section}{\numberline {7}Effort Spent}{21}{section.7}
-\contentsline {section}{References}{22}{section*.17}
+\contentsline {subsection}{\numberline {2.2}High level components and their interactions}{7}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Component view}{7}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Deployment view}{8}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Runtime view}{9}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.6}Component interfaces}{9}{subsection.2.6}
+\contentsline {subsection}{\numberline {2.7}Selected architectural styles and patterns}{12}{subsection.2.7}
+\contentsline {subsection}{\numberline {2.8}Other design decisions}{12}{subsection.2.8}
+\contentsline {section}{\numberline {3}Algorithm Design}{15}{section.3}
+\contentsline {subsection}{\numberline {3.1}Check overlapping}{15}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Add appointments and routes}{16}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Remove routes of an appointment}{16}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Remove an appointment}{18}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}Updating an appointment}{18}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.6}Calculating a route}{18}{subsection.3.6}
+\contentsline {section}{\numberline {4}User Interface Design}{21}{section.4}
+\contentsline {subsection}{\numberline {4.1}Mock ups}{21}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}UX diagram}{21}{subsection.4.2}
+\contentsline {section}{\numberline {5}Requirements Traceability}{30}{section.5}
+\contentsline {section}{\numberline {6}Implementation, Integration and Test Plan}{35}{section.6}
+\contentsline {subsection}{\numberline {6.1}Integration conditions}{35}{subsection.6.1}
+\contentsline {subsubsection}{\numberline {6.1.1}Entry Criteria}{35}{subsubsection.6.1.1}
+\contentsline {subsubsection}{\numberline {6.1.2}Elements to be integrated}{35}{subsubsection.6.1.2}
+\contentsline {subsection}{\numberline {6.2}Implementation, Integration Strategy}{36}{subsection.6.2}
+\contentsline {subsubsection}{\numberline {6.2.1}Integration sequence}{36}{subsubsection.6.2.1}
+\contentsline {subsubsection}{\numberline {6.2.2}Test Strategy}{38}{subsubsection.6.2.2}
+\contentsline {section}{\numberline {7}Effort Spent}{39}{section.7}
+\contentsline {section}{References}{40}{section*.38}

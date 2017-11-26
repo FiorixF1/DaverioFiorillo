@@ -27,43 +27,93 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {1.4}Revision History}{5}{subsection.1.4}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {1.5}Reference Document}{5}{subsection.1.5}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {1.6}Document Structure}{6}{subsection.1.6}}
-\citation{DAM}
 \@writefile{toc}{\contentsline {section}{\numberline {2}Architectural Design}{7}{section.2}}
 \newlabel{sect:architecture}{{1.6}{7}{7 - Effort Spent}{section.2}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Overview}{7}{subsection.2.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Component view}{7}{subsection.2.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Deplyment view}{7}{subsection.2.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Runtime view}{7}{subsection.2.4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.5}Component Interfaces}{7}{subsection.2.5}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.6}Selected architectural styles and patterns}{7}{subsection.2.6}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.7}Other design decisions}{7}{subsection.2.7}}
-\newlabel{RF1}{8}
-\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces DICE DPIM metamodel.\relax }}{8}{figure.caption.13}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}High level components and their interactions}{7}{subsection.2.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Component view}{7}{subsection.2.3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Component diagram of the system\relax }}{8}{figure.caption.13}}
 \providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
-\newlabel{fig:metamodel}{{1}{8}{DICE DPIM metamodel.\relax }{figure.caption.13}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces DICE DPIM metamodel in portrait form.\relax }}{9}{figure.caption.14}}
-\newlabel{fig:metamodel2}{{2}{9}{DICE DPIM metamodel in portrait form.\relax }{figure.caption.14}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {3}Algorithm Design}{10}{section.3}}
-\newlabel{sect:algorithms}{{2.7}{10}{Other design decisions}{section.3}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {4}User Interface Design}{11}{section.4}}
-\newlabel{sect:interface}{{2.7}{11}{Other design decisions}{section.4}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {5}Requirements Traceability}{12}{section.5}}
-\newlabel{sect:traceability}{{2.7}{12}{Other design decisions}{section.5}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {6}Implementation, Integration and Test Plan}{17}{section.6}}
-\newlabel{sect:implementation}{{2.7}{17}{Other design decisions}{section.6}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Integration conditions}{17}{subsection.6.1}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.1.1}Entry Criteria}{17}{subsubsection.6.1.1}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.1.2}Elements to be integrated}{17}{subsubsection.6.1.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Implementation, Integration Strategy}{18}{subsection.6.2}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.2.1}Integration sequence}{18}{subsubsection.6.2.1}}
-\newlabel{RF2}{19}
-\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces  Bottom-Up integration and testing components diagram. \relax }}{19}{figure.caption.15}}
-\newlabel{fig:integration}{{3}{19}{Bottom-Up integration and testing components diagram. \relax }{figure.caption.15}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.2.2}Test Strategy}{20}{subsubsection.6.2.2}}
-\newlabel{testplan}{{6.2.2}{20}{Test Strategy}{subsubsection.6.2.2}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {7}Effort Spent}{21}{section.7}}
-\newlabel{sect:effort}{{6.2.2}{21}{Test Strategy}{section.7}{}}
+\newlabel{fig:metamodel2}{{1}{8}{Component diagram of the system\relax }{figure.caption.13}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Deployment view}{8}{subsection.2.4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Deployment diagram of the proposed implementation\relax }}{9}{figure.caption.14}}
+\newlabel{fig:metamodel2}{{2}{9}{Deployment diagram of the proposed implementation\relax }{figure.caption.14}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5}Runtime view}{9}{subsection.2.5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.6}Component interfaces}{9}{subsection.2.6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces User login\relax }}{10}{figure.caption.15}}
+\newlabel{fig:metamodel2}{{3}{10}{User login\relax }{figure.caption.15}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Add an appointment\relax }}{10}{figure.caption.16}}
+\newlabel{fig:metamodel2}{{4}{10}{Add an appointment\relax }{figure.caption.16}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Add a route\relax }}{11}{figure.caption.17}}
+\newlabel{fig:metamodel2}{{5}{11}{Add a route\relax }{figure.caption.17}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Send a notification (push or SMS)\relax }}{11}{figure.caption.18}}
+\newlabel{fig:metamodel2}{{6}{11}{Send a notification (push or SMS)\relax }{figure.caption.18}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.7}Selected architectural styles and patterns}{12}{subsection.2.7}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.8}Other design decisions}{12}{subsection.2.8}}
+\newlabel{RF1}{13}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces DICE DPIM metamodel.\relax }}{13}{figure.caption.19}}
+\newlabel{fig:metamodel}{{7}{13}{DICE DPIM metamodel.\relax }{figure.caption.19}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces DICE DPIM metamodel in portrait form.\relax }}{14}{figure.caption.20}}
+\newlabel{fig:metamodel2}{{8}{14}{DICE DPIM metamodel in portrait form.\relax }{figure.caption.20}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Check overlapping between two events\relax }}{15}{figure.caption.21}}
+\newlabel{fig:metamodel2}{{9}{15}{Check overlapping between two events\relax }{figure.caption.21}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Algorithm Design}{15}{section.3}}
+\newlabel{sect:algorithms}{{2.8}{15}{Other design decisions}{section.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Check overlapping}{15}{subsection.3.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Add an appointment\relax }}{16}{figure.caption.22}}
+\newlabel{fig:metamodel2}{{10}{16}{Add an appointment\relax }{figure.caption.22}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Add appointments and routes}{16}{subsection.3.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Remove routes of an appointment}{16}{subsection.3.3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Add a route\relax }}{17}{figure.caption.23}}
+\newlabel{fig:metamodel2}{{11}{17}{Add a route\relax }{figure.caption.23}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Remove all routes of an appointment\relax }}{17}{figure.caption.24}}
+\newlabel{fig:metamodel2}{{12}{17}{Remove all routes of an appointment\relax }{figure.caption.24}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces Remove an appointment\relax }}{18}{figure.caption.25}}
+\newlabel{fig:metamodel2}{{13}{18}{Remove an appointment\relax }{figure.caption.25}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Remove an appointment}{18}{subsection.3.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}Updating an appointment}{18}{subsection.3.5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.6}Calculating a route}{18}{subsection.3.6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces Update an appointment\relax }}{19}{figure.caption.26}}
+\newlabel{fig:metamodel2}{{14}{19}{Update an appointment\relax }{figure.caption.26}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces Calculate routes\relax }}{20}{figure.caption.27}}
+\newlabel{fig:metamodel2}{{15}{20}{Calculate routes\relax }{figure.caption.27}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}User Interface Design}{21}{section.4}}
+\newlabel{sect:interface}{{3.6}{21}{Calculating a route}{section.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Mock ups}{21}{subsection.4.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}UX diagram}{21}{subsection.4.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces Login screen\relax }}{22}{figure.caption.28}}
+\newlabel{fig:metamodel2}{{16}{22}{Login screen\relax }{figure.caption.28}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces Sigup screen\relax }}{23}{figure.caption.29}}
+\newlabel{fig:metamodel2}{{17}{23}{Sigup screen\relax }{figure.caption.29}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {18}{\ignorespaces Home screen with calendar\relax }}{24}{figure.caption.30}}
+\newlabel{fig:metamodel2}{{18}{24}{Home screen with calendar\relax }{figure.caption.30}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {19}{\ignorespaces Add an appointment\relax }}{25}{figure.caption.31}}
+\newlabel{fig:metamodel2}{{19}{25}{Add an appointment\relax }{figure.caption.31}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {20}{\ignorespaces Add a route\relax }}{26}{figure.caption.32}}
+\newlabel{fig:metamodel2}{{20}{26}{Add a route\relax }{figure.caption.32}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {21}{\ignorespaces Set preferences\relax }}{27}{figure.caption.33}}
+\newlabel{fig:metamodel2}{{21}{27}{Set preferences\relax }{figure.caption.33}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {22}{\ignorespaces Select a route\relax }}{28}{figure.caption.34}}
+\newlabel{fig:metamodel2}{{22}{28}{Select a route\relax }{figure.caption.34}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {23}{\ignorespaces UX Diagram\relax }}{29}{figure.caption.35}}
+\newlabel{fig:metamodel2}{{23}{29}{UX Diagram\relax }{figure.caption.35}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Requirements Traceability}{30}{section.5}}
+\newlabel{sect:traceability}{{4.2}{30}{UX diagram}{section.5}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Implementation, Integration and Test Plan}{35}{section.6}}
+\newlabel{sect:implementation}{{4.2}{35}{UX diagram}{section.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Integration conditions}{35}{subsection.6.1}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.1.1}Entry Criteria}{35}{subsubsection.6.1.1}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.1.2}Elements to be integrated}{35}{subsubsection.6.1.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Implementation, Integration Strategy}{36}{subsection.6.2}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.2.1}Integration sequence}{36}{subsubsection.6.2.1}}
+\newlabel{RF2}{37}
+\@writefile{lof}{\contentsline {figure}{\numberline {24}{\ignorespaces  Bottom-Up integration and testing components diagram. \relax }}{37}{figure.caption.36}}
+\newlabel{fig:integration}{{24}{37}{Bottom-Up integration and testing components diagram. \relax }{figure.caption.36}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.2.2}Test Strategy}{38}{subsubsection.6.2.2}}
+\newlabel{testplan}{{6.2.2}{38}{Test Strategy}{subsubsection.6.2.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Effort Spent}{39}{section.7}}
+\newlabel{sect:effort}{{6.2.2}{39}{Test Strategy}{section.7}{}}
 \bibstyle{plain}
 \bibdata{main}
 \bibcite{DAM}{1}
-\@writefile{toc}{\contentsline {section}{References}{22}{section*.17}}
+\@writefile{toc}{\contentsline {section}{References}{40}{section*.38}}
