@@ -10,23 +10,31 @@
 \contentsline {subsection}{\numberline {1.6}Document Structure}{6}{subsection.1.6}
 \contentsline {section}{\numberline {2}Architectural Design}{7}{section.2}
 \contentsline {subsection}{\numberline {2.1}Overview}{7}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}Component view}{7}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3}Deplyment view}{7}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}Runtime view}{7}{subsection.2.4}
-\contentsline {subsection}{\numberline {2.5}Component Interfaces}{7}{subsection.2.5}
-\contentsline {subsection}{\numberline {2.6}Selected architectural styles and patterns}{7}{subsection.2.6}
-\contentsline {subsection}{\numberline {2.7}Other design decisions}{7}{subsection.2.7}
-\contentsline {section}{\numberline {3}Algorithm Design}{10}{section.3}
-\contentsline {section}{\numberline {4}User Interface Design}{11}{section.4}
-\contentsline {section}{\numberline {5}Requirements Traceability}{12}{section.5}
-\contentsline {section}{\numberline {6}Implementation, Integration and Test Plan}{17}{section.6}
-\contentsline {subsection}{\numberline {6.1}Integration Strategy}{17}{subsection.6.1}
-\contentsline {subsubsection}{\numberline {6.1.1}Entry Criteria}{17}{subsubsection.6.1.1}
-\contentsline {subsubsection}{\numberline {6.1.2}Elements to be integrated}{17}{subsubsection.6.1.2}
-\contentsline {subsubsection}{\numberline {6.1.3}Integration Strategy}{18}{subsubsection.6.1.3}
-\contentsline {subsubsection}{\numberline {6.1.4}Integration sequence}{18}{subsubsection.6.1.4}
-\contentsline {subsection}{\numberline {6.2}Test Plan}{20}{subsection.6.2}
-\contentsline {subsubsection}{\numberline {6.2.1}Testing Strategy}{20}{subsubsection.6.2.1}
-\contentsline {subsubsection}{\numberline {6.2.2}Testing Sequence}{20}{subsubsection.6.2.2}
-\contentsline {section}{\numberline {7}Effort Spent}{21}{section.7}
-\contentsline {section}{References}{22}{section*.17}
+\contentsline {subsection}{\numberline {2.2}High level components and their interactions}{7}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Component view}{8}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Deployment view}{9}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Runtime view}{10}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.6}Component interfaces}{13}{subsection.2.6}
+\contentsline {subsection}{\numberline {2.7}Selected architectural styles and patterns}{13}{subsection.2.7}
+\contentsline {subsection}{\numberline {2.8}Other design decisions}{13}{subsection.2.8}
+\contentsline {section}{\numberline {3}Algorithm Design}{14}{section.3}
+\contentsline {subsection}{\numberline {3.1}Check overlapping}{14}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Add appointments and routes}{15}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Remove routes of an appointment}{17}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Remove an appointment}{18}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}Updating an appointment}{19}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.6}Calculating a route}{20}{subsection.3.6}
+\contentsline {section}{\numberline {4}User Interface Design}{22}{section.4}
+\contentsline {subsection}{\numberline {4.1}Mock ups}{22}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}UX diagram}{26}{subsection.4.2}
+\contentsline {section}{\numberline {5}Requirements Traceability}{28}{section.5}
+\contentsline {section}{\numberline {6}Implementation, Integration and Test Plan}{33}{section.6}
+\contentsline {subsection}{\numberline {6.1}Integration Strategy}{33}{subsection.6.1}
+\contentsline {subsubsection}{\numberline {6.1.1}Entry Criteria}{33}{subsubsection.6.1.1}
+\contentsline {subsubsection}{\numberline {6.1.2}Elements to be integrated}{33}{subsubsection.6.1.2}
+\contentsline {subsubsection}{\numberline {6.1.3}Integration Strategy}{34}{subsubsection.6.1.3}
+\contentsline {subsubsection}{\numberline {6.1.4}Integration sequence}{34}{subsubsection.6.1.4}
+\contentsline {subsection}{\numberline {6.2}Test Plan}{36}{subsection.6.2}
+\contentsline {subsubsection}{\numberline {6.2.1}Testing Strategy}{36}{subsubsection.6.2.1}
+\contentsline {subsubsection}{\numberline {6.2.2}Testing Sequence}{36}{subsubsection.6.2.2}
+\contentsline {section}{\numberline {7}Effort Spent}{37}{section.7}

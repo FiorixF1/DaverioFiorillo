@@ -1,3 +1,22 @@
-\contentsline {figure}{\numberline {1}{\ignorespaces DICE DPIM metamodel.\relax }}{8}{figure.caption.13}
-\contentsline {figure}{\numberline {2}{\ignorespaces DICE DPIM metamodel in portrait form.\relax }}{9}{figure.caption.14}
-\contentsline {figure}{\numberline {3}{\ignorespaces Bottom-Up integration and testing components diagram. \relax }}{19}{figure.caption.15}
+\contentsline {figure}{\numberline {1}{\ignorespaces Component diagram of the system\relax }}{8}{figure.caption.13}
+\contentsline {figure}{\numberline {2}{\ignorespaces Deployment diagram of the proposed implementation\relax }}{10}{figure.caption.14}
+\contentsline {figure}{\numberline {3}{\ignorespaces User login\relax }}{11}{figure.caption.15}
+\contentsline {figure}{\numberline {4}{\ignorespaces Add an appointment\relax }}{11}{figure.caption.16}
+\contentsline {figure}{\numberline {5}{\ignorespaces Add a route\relax }}{12}{figure.caption.17}
+\contentsline {figure}{\numberline {6}{\ignorespaces Send a notification (push or SMS)\relax }}{12}{figure.caption.18}
+\contentsline {figure}{\numberline {7}{\ignorespaces Check overlapping between two events\relax }}{15}{figure.caption.19}
+\contentsline {figure}{\numberline {8}{\ignorespaces Add an appointment\relax }}{16}{figure.caption.20}
+\contentsline {figure}{\numberline {9}{\ignorespaces Add a route\relax }}{17}{figure.caption.21}
+\contentsline {figure}{\numberline {10}{\ignorespaces Remove all routes of an appointment\relax }}{18}{figure.caption.22}
+\contentsline {figure}{\numberline {11}{\ignorespaces Remove an appointment\relax }}{19}{figure.caption.23}
+\contentsline {figure}{\numberline {12}{\ignorespaces Update an appointment\relax }}{20}{figure.caption.24}
+\contentsline {figure}{\numberline {13}{\ignorespaces Calculate routes\relax }}{21}{figure.caption.25}
+\contentsline {figure}{\numberline {14}{\ignorespaces Login screen\relax }}{22}{figure.caption.26}
+\contentsline {figure}{\numberline {15}{\ignorespaces Sigup screen\relax }}{23}{figure.caption.27}
+\contentsline {figure}{\numberline {16}{\ignorespaces Home screen with calendar\relax }}{23}{figure.caption.28}
+\contentsline {figure}{\numberline {17}{\ignorespaces Add an appointment\relax }}{24}{figure.caption.29}
+\contentsline {figure}{\numberline {18}{\ignorespaces Add a route\relax }}{24}{figure.caption.30}
+\contentsline {figure}{\numberline {19}{\ignorespaces Set preferences\relax }}{25}{figure.caption.31}
+\contentsline {figure}{\numberline {20}{\ignorespaces Select a route\relax }}{25}{figure.caption.32}
+\contentsline {figure}{\numberline {21}{\ignorespaces UX Diagram\relax }}{27}{figure.caption.33}
+\contentsline {figure}{\numberline {22}{\ignorespaces Bottom-Up integration and testing components diagram. \relax }}{35}{figure.caption.34}
