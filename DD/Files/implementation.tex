@@ -55,8 +55,47 @@ According to that scheme, the first developing iteration will focus on \textit{s
 
 It is also possible to parallelize large part of the development process working on parallel branches of the integration sequence diagram, smoothing the entire development process, without modifications to the integration and testing strategy.
 
+Actually, the development of some component parts can be developed separately and asynchronously respect the unit itself. This practise is encouraged in order to offer the possibility to testing vertically some core functionalities of the system before the end of development. Further details on thread testing strategy in \ref{testplan}.
+
+It is provided a list of functionalities and unit parts that can be implemented and integrated interdependently for testing purpose:
+\begin{itemize}
+	\item \textbf{\textit{Registration and Login}}
+	\subitem \textit{Web Application}: UI with login/registration functionalities
+	\subitem \textit{Mobile Application}: UI with login/registration functionalities
+	\subitem \textit{SessionManager}: login/registration and client communication implemented
+	\subitem \textit{DBMS}: implemented
+	
+	\item \textbf{\textit{Appointment management}} (add/remove/modify an appointment) without routes definition
+	\subitem \textit{Web Application}: UI with appointment management functionalities
+	\subitem \textit{Mobile Application}: UI with appointment management functionalities
+	\subitem \textit{SessionManager}: appointment management and client communication implemented
+	\subitem \textit{CalendarManager}: appointment management implemented
+	\subitem \textit{DBMS}: implemented
+	
+	\item \textbf{\textit{Preference management}} (add/remove/modify preferences), requires \textit{Registration and Login}
+	\subitem \textit{Web Application}: UI with preference management functionalities
+	\subitem \textit{Mobile Application}: UI with preference management functionalities
+	\subitem \textit{SessionManager}: preference management and implemented
+	\subitem \textit{PreferenceManager}: preference management implemented
+	\subitem \textit{DBMS}: implemented
+\end{itemize}
+
 \subsubsection{Integration sequence}
 
+Directed arc from component-A to component-B is intended as a dependency of component-B on functionalities offered by component-A.
+The implementation, integration and testing scheme starts from the bottom with first to be developed units, and propagates to the top, stepping forward only if all dependencies are satisfied.
+
+\begin{sidewaysfigure}
+	\centering
+	\includegraphics{Images/IntegrationDiagram.png}
+	\caption{\label{fig:integration} Bottom-Up integration and testing components diagram. }
+\end{sidewaysfigure}
+
+\clearpage %Fix pictures position before this and newpage command
+
 \subsection{Test Plan}
+\label{testplan}
+
+
 \subsubsection{Testing Strategy}
 \subsubsection{Testing Sequence}
