@@ -1,1 +1,152 @@
-Organize this section according to the rules defined in the project description. 
+In this section we will describe the most important algorithms for the application Travlendar+ with a description and a snippet of Java code.
+
+\subsection{Check overlapping}
+
+In this application it is often needed to check if an appointment or route is not overlapping with other events in the calendar of the user. For this purpose, a specific method is required.
+
+Input:
+\begin{itemize}
+	\item cal: the calendar of the user who is adding the event
+	\item app: an object representing the appointment to add or the appointment to which the route to add is linked
+	\item begin: the starting time of the event as instance of DateTime
+	\item end: the ending time of the event as instance of DateTime
+\end{itemize}
+
+Output:
+\begin{itemize}
+	\item It returns true if the event does not overlap with other events, false otherwise.
+\end{itemize}
+
+The method treats as a special case the overlapping of a route with its own appointment: since it is allowed for a route to end after the corresponding appointment starts, the method won’t return false if this case happens.
+
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{{"Images/Algorithm - Check overlapping"}.png}
+\caption{\label{fig:metamodel2}Check overlapping between two events}
+\end{figure}
+
+\subsection{Add appointments and routes}
+
+With the previously described method, adding an appointment or route becomes easy. Just check if there are no overlapping and then add the event to the calendar. The are two versions of the method based on the type of the event to add (appointment or route).
+
+Input:
+\begin{itemize}
+	\item an object representing the user who is doing the request. It is needed to retrieve its calendar.
+	\item app: an instance of the class Appointment with the needed attributes
+	\item route: an instance of the class Route with the needed attributes
+\end{itemize}
+
+Output:
+\begin{itemize}
+	\item It modifies the calendar if the event is acceptable, otherwise it raises an exception.
+\end{itemize}
+
+The method which adds an appointment can be inserted inside the class that manages the calendar, while the method which adds a route should be added inside the class Appointment, since there is a one-to-one relationship between appointments and routes.
+
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{{"Images/Algorithm - Add appointment"}.png}
+\caption{\label{fig:metamodel2}Add an appointment}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{{"Images/Algorithm - Add route"}.png}
+\caption{\label{fig:metamodel2}Add a route}
+\end{figure}
+
+\subsection{Remove routes of an appointment}
+
+In some cases, given an appointment, it will be needed to remove both the route going to the appointment and the route starting from it.
+
+Input:
+\begin{itemize}
+	\item user: the user to which the appointment is linked
+\end{itemize}
+
+Output:
+\begin{itemize}
+	\item It removes both the incoming and the outcoming route from the appointment
+\end{itemize}
+
+The method will be implemented inside the class Appointment.
+
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{{"Images/Algorithm - Remove all routes of an appointment"}.png}
+\caption{\label{fig:metamodel2}Remove all routes of an appointment}
+\end{figure}
+
+\subsection{Remove an appointment}
+
+As stated in the RASD, when deleting an appointment, also its incoming and outcoming routes must be automatically removed. Thanks to the previous method, this becomes an easy task.
+
+Input:
+\begin{itemize}
+	\item user: the user to which the appointment to delete is linked.
+	\item app: the appointment to delete
+\end{itemize}
+
+Output:
+\begin{itemize}
+	\item The appointment is removed with its own routes.
+\end{itemize}
+
+The method is inside the class manager along with other methods that deal with appointments.
+
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{{"Images/Algorithm - Remove appointment"}.png}
+\caption{\label{fig:metamodel2}Remove an appointment}
+\end{figure}
+
+\subsection{Updating an appointment}
+
+When modifying the attributes of an appointment, it is possible to change the time or the location of it. If this happens, the previously calculated routes become meaningless and so they shall be removed as well.
+
+Input:
+\begin{itemize}
+	\item user: the user to which the appointment is linked
+	\item app: the appointment to modify
+	\item newBegin: the new starting time
+	\item newEnd: the new ending time
+	\item newPosition: the new location
+\end{itemize}
+
+Output:
+\begin{itemize}
+	\item The appointment is updated with the new attributes. If necessary, its routes are deleted.
+\end{itemize}
+
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{{"Images/Algorithm - Update appointment"}.png}
+\caption{\label{fig:metamodel2}Update an appointment}
+\end{figure}
+
+\subsection{Calculating a route}
+
+The most important algorithm in the application is the calculation of the route to an appointment given a set of preferences and constraints.
+
+Input:
+\begin{itemize}
+	\item user: the user asking for the route
+	\item from: the starting position
+	\item to: the position to reach
+	\item start: the starting hour as instance of DateTime
+	\item end: the arriving hour as instance of DateTime
+\end{itemize}
+
+Output:
+\begin{itemize}
+	\item A list of routes, each one minimizing a specific parameter
+\end{itemize}
+
+The algorithm calculates a set of possible routes between two points with respect to a list of constraints: the available vehicles, the priority of transport means, the timeslots of the vehicles, the maximum allowed length on foot or bicycle, a set of pauses (including Flexible Lunch) and the need to minimize four parameters (length, duration, number of changes, CO2 consumption).
+
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{{"Images/Algorithm - Calculate routes"}.png}
+\caption{\label{fig:metamodel2}Calculate routes}
+\end{figure}
+
